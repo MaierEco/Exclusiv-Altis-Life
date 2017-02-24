@@ -6,6 +6,70 @@ EC635_AT
 EC635_Unarmed
 GR_UH1H_3
 GR_UH1H_1
+DAR_DAR_02FirebirdSSVPolice
+DAR_TahoePolice
+DAR_TahoePoliceDet
+DAR_CVPIPolice
+DAR_CVPIAux
+DAR_CVPISlick
+DAR_ChargerPolice
+DAR_ChargerPoliceStateSlick
+DAR_ExplorerPolice
+DAR_TaurusPolice
+DAR_TaurusPoliceState
+DAR_ExplorerPoliceStealth
+DAR_ImpalaPoliceDet
+DAR_TaurusPoliceStateSlick
+DAR_ImpalaPoliceSlick
+DAR_ImpalaPolice
+Dacia_Duster_gn  ...
+Dacia_Duster_pm ...
+Transit_gn ...
+Transit_pn ...
+Transit_crs ...
+DAR_SWATPolice
+ClioIV_GN ...
+ClioIV_PM ...
+Renault_Espace_sphp ...
+Trafic_crs ...
+Trafic_douane ...
+Trafic_gn ...
+Trafic_vezi ...
+Trafic_pn ...
+ivory_rs4_slicktop ... 
+ivory_rs4_marked ...
+ivory_rs4_unmarked 
+ivory_m3_unmarked 
+ivory_m3_marked ...
+ivory_m3_slicktop ...
+ivory_suburban_marked
+ivory_suburban_slicktop
+ivory_suburban_unmarked
+Megane_Estate_gn 
+Megane_Estate_pn 
+308_pn 
+Jonzie_Highway ...
+ivory_isf_unmarked 
+ivory_isf_slicktop ...
+ivory_isf_marked ...
+ivory_evox_unmarked
+ivory_evox_slicktop ...
+ivory_evox_marked ...
+Expert_GN ...
+Clio_GN ...
+Scenic_Pn ...
+ivory_wrx_unmarked
+ivory_wrx_marked ...
+ivory_wrx_slicktop ...
+
+//Medics
+DAR_TahoeEMS
+DAR_ExplorerMedic
+Dacia_Duster_vlhr
+Megane_Estate_vli ...
+Renault_Espace_samu ...
+Trafic_vtp 
+ivory_suburban_ems
 
 //Rebellen
 ACR_Offroad_HMG
@@ -33,6 +97,54 @@ DAR_FusionCiv
 DAR_TaurusCivBlack
 DAR_TaurusCivBlue
 DAR_TaurusCiv
+Dacia_Duster_civ
+Dacia_Duster_civ_bleu
+Dacia_Duster_civ_gris
+Dacia_Duster_civ_noir
+Dacia_Duster_civ_yellow
+Dacia_Duster_civ_rouge
+Megane_Estate_civ
+Megane_Estate_civ_bleu
+Megane_Estate_civ_rouge
+Megane_Estate_civ_gris
+Megane_Estate_civ_noir
+Megane_Estate_civ_yellow
+Peugeot_308_civ
+ Peugeot_308_civ_noir
+Peugeot_308_civ_rouge
+Peugeot_308_civ_gris
+308_bac
+Peugeot_308_civ_rouge
+Peugeot_308_civ_bleu
+Peugeot_308_civ_yellow
+Renault_ClioIV_civ_bleu
+Renault_ClioIV_civ
+Renault_ClioIV_civ_yellow
+Renault_ClioIV_civ_gris
+Renault_ClioIV_civ_rouge
+Renault_ClioIV_civ_noir
+Renault_Espace_civ
+Renault_Espace_civ_bleu
+Renault_Espace_civ_gris
+Renault_Espace_civ_yellow
+Renault_Espace_civ_noir
+Renault_Espace_civ_rouge
+Renault_Scenic_civ
+Renault_Scenic_civ_gris
+Renault_Scenic_civ_bleu
+Renault_Scenic_civ_yellow
+Renault_Scenic_civ_noir
+Renault_Scenic_civ_rouge
+ivory_rs4
+ivory_rs4_taxi
+Audi_S8_F
+ivory_m3
+ivory_m3_unmarked
+Jonzie_Escalade
+ivory_suburban
+ivory_isf
+ivory_gti
+
 
 //Gebrauchtwagen
 Jonzie_30CSL
@@ -50,6 +162,33 @@ S_Skyline_Purple
 Jonzie_STI
 ivory_wrx
 Jonzie_Corolla
+Renault_Clio_civ
+Renault_Clio_civ_bleu
+Renault_Clio_civ_gris
+Renault_Clio_civ_yellow
+Renault_Clio_civ_noir
+Renault_Clio_civ_rouge
+ivory_e36
+sab_followme_car
+LandRover_TK_CIV_EP1
+ivory_190e
+ivory_190e_taxi
+ivory_evox
+Sal_ford_gran_black
+Sal_ford_gran_aqua
+Sal_ford_gran_red
+Sal_ford_gran_white
+Sal_ford_gran_green
+Sal_ford_gran_pink
+Sal_ford_gran_orange
+Sal_ford_gran_yellow
+Sal_ford_gran_darkgreen
+Sal_ford_gran_darkblue
+Sal_ford_gran_purple
+Sal_ford_gran_darkred
+ivory_gt500
+Jonzie_Corolla
+ivory_supra
 
 //Sportwagen
 Tal_Murci_PC
@@ -95,6 +234,11 @@ S_McLarenP1_White
 S_McLarenP1_Yellow
 ivory_lfa
 Jonzie_Quattroporte
+ivory_veyron
+ivory_elise
+ivory_f1
+ivory_mp4
+ivory_r34
 
 //Muscle Cars
 Jonzie_XB
@@ -104,6 +248,20 @@ DAR_ChallengerCivWhite
 DAR_ChallengerCivRed
 DAR_ChallengerCivOrange
 DAR_ChallengerCivBlack
+red_camaro_12_pink
+red_camaro_12_aqua
+red_camaro_12_black
+red_camaro_12_darkgreen
+red_camaro_12_darkblue
+red_camaro_12_blue
+red_camaro_12_green
+red_camaro_12_darkred
+red_camaro_12_orange
+red_camaro_12_yellow
+red_camaro_12_purple
+red_camaro_12_white
+DAR_ChargerCiv
+AC1D_ford_mustang_NFS_SPEC
 
 //LKW
 Jonzie_Transit
@@ -111,6 +269,64 @@ Jonzie_Log_Truck
 Jonzie_Flat_Bed
 Jonzie_Tanker_Truck
 Jonzie_Box_Truck
+Peugeot_Boxer_civ
+Peugeot_Boxer_civ_bleu
+Peugeot_Boxer_civ_gris
+Peugeot_Boxer_civ_noir
+Peugeot_Boxer_civ_yellow
+Peugeot_Boxer_civ_rouge
+Peugeot_Expert_civ
+Peugeot_Expert_civ_gris
+Peugeot_Expert_civ_bleu
+Peugeot_Expert_civ_noir
+Peugeot_Expert_civ_yellow
+Peugeot_Expert_civ_rouge
+Renault_Master_civ
+Renault_Master_civ_bleu
+Renault_Master_civ_gris
+Renault_Master_civ_noir
+Renault_Master_civ_rouge
+Renault_Master_civ_yellow
+Trafic1_civ
+Trafic1_civ_bleu
+Trafic1_civ_yellow
+Trafic1_civ_gris
+Trafic1_civ_noir
+Trafic1_civ_rouge
+Trafic1pl_civ
+Trafic1pl_civ_bleu
+Trafic1pl_civ_noir
+Trafic1pl_civ_rouge
+Trafic1pl_civ_gris
+Trafic1pl_civ_yellow
+Trafic2_civ 
+Trafic2_civ_rouge
+Trafic2_civ_bleu
+Trafic2_civ_noir
+Trafic2_civ_yellow
+Trafic2_civ_gris
+Trafic2pl_civ
+Trafic2pl_civ_gris
+Trafic2pl_civ_yellow
+Trafic2pl_civ_bleu
+Trafic2_civ_rouge
+Trafic2pl_civ_noir
+Jonzie_Curtain_Roadtrain
+Jonzie_Curtain
+Jonzie_Flatbed_Roadtrain
+Jonzie_Flatbed
+Jonzie_Forklift
+Jonzie_Superliner
+Jonzie_Tow_Truck
+SLB2k11_Scania_420EU_weis
+SLB2k11_Scania_420_weis
+SLB2k11_Scania_420EU_orange
+SLB2k11_Scania_420_orange
+SLB2k11_Scania_420EU_blau
+SLB2k11_Scania_420_blau
+SLB2k11_Scania_420EU_black
+SLB2k11_Scania_420_black
+Jonzie_Western
 
 //Zivilflugzeuge
 Sab_Sikorsky38_3
