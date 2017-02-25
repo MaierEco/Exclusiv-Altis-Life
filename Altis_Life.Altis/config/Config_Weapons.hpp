@@ -41,12 +41,13 @@ class WeaponShops {
 			{ "RH_ttracker", "", 22000, 2200, { "", "", -1 } },
 			{ "RH_ttracker_g", "", 22000, 2200, { "", "", -1 } },
 			{ "RH_muzi", "", 70000, 7000, { "", "", -1 } },
-			{ "hgun_P07_snds_F", "TASER", 4000000, 40000, { "", "", -1 } }
+			{ "EAL_hgun_P07_snds_F", "TASER", 4000000, 40000, { "", "", -1 } }
         };
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 3000, 300, { "", "", -1 } },
 			{ "RH_16Rnd_9x19_CZ", "", 3000, 300, { "", "", -1 } },
 			{ "16Rnd_9x21_Mag", "", 3000, 300, { "", "", -1 } },
+			{ "EAL_16Rnd_9x21_Mag", "TASERMUNITION", 30000, 3000, { "", "", -1 } },
             { "6Rnd_45ACP_Cylinder", "", 800, 80, { "", "", -1 } },
 			{ "9Rnd_45ACP_Mag", "", 1000, 100, { "", "", -1 } },
 			{ "RH_7Rnd_45cal_m1911", "", 900, 90, { "", "", -1 } },
@@ -83,7 +84,7 @@ class WeaponShops {
 			{ "hlc_rifle_augsrcarb_t", "", 900000, 90000, { "", "", -1 } },
 			{ "hlc_rifle_augsr", "", 920000, 92000, { "", "", -1 } },
 			{ "hlc_rifle_augsr_t", "", 920000, 92000, { "", "", -1 } },
-			{ "hgun_P07_snds_F", "TASER", 4000000, 40000, { "", "", -1 } },
+			{ "EAL_hgun_P07_snds_F", "TASER", 4000000, 40000, { "", "", -1 } },
 			
 			{ "optic_ACO_grn", "", 5000, 500, { "", "", -1 } },
             { "optic_Holosight", "", 7500, 750, { "", "", -1 } },
@@ -95,6 +96,7 @@ class WeaponShops {
         mags[] = {
             { "RH_15Rnd_9x19_M9", "", 3000, 300, { "", "", -1 } },
 			{ "16Rnd_9x21_Mag", "", 3000, 300, { "", "", -1 } },
+			{ "EAL_16Rnd_9x21_Mag", "TASERMUNITION", 30000, 3000, { "", "", -1 } },
 			{ "9Rnd_45ACP_Mag", "", 1000, 100, { "", "", -1 } },
 			{ "RH_7Rnd_45cal_m1911", "", 900, 90, { "", "", -1 } },
 			{ "RH_15Rnd_45cal_fnp", "", 3500, 350, { "", "", -1 } },
@@ -835,6 +837,10 @@ class WeaponShops {
 			{ "hlc_rifle_G36A1", "", 22000000, 22000, { "", "", -1 } },
 			{ "hlc_rifle_G36KA1", "", 21500000, 21500, { "", "", -1 } },
 			{ "hlc_rifle_G36C", "", 23000000, 23000, { "", "", -1 } },
+			//Sniper Section
+			{ "EAL_srifle_LRR_F", "RUBBERBALLSNIPER", 80000000, 80000, { "", "", -1 } },
+			//MG-Section
+			{ "EAL_LMG_Mk200_F", "RUBBERBALL-MG", 30000000, 30000, { "", "", -1 } },
 			//Item Section
 			{ "", "Items", -1, -1, { "", "", -1 } },
 			{ "ACE_IR_Strobe_Item", "", 15000, 15, { "", "", -1 } },
@@ -848,7 +854,13 @@ class WeaponShops {
 			{ "SMA_MICRO_T2", "", 700000, 700, { "", "", -1 } },
 			{ "optic_Hamr", "", 800000, 800, { "", "", -1 } },
 			{ "SMA_ELCAN_SPECTER", "", 800000, 800, { "", "", -1 } },
-			{ "sma_spitfire_01_sc_black", "", 800000, 800, { "", "", -1 } }
+			{ "sma_spitfire_01_sc_black", "", 800000, 800, { "", "", -1 } },
+			{ "optic_NVS", "", 7500000, 7500, { "", "", -1 } },
+			{ "optic_tws", "", 9000000, 9000, { "", "", -1 } },
+			{ "optic_SOS", "", 10000000, 10000, { "", "", -1 } },
+			{ "optic_SOS_khk_F", "", 10000000, 10000, { "", "", -1 } },
+			{ "optic_LRPS", "", 11000000, 11000, { "", "", -1 } },
+			{ "optic_LRPS_tna_F", "", 11000000, 11000, { "", "", -1 } }
         };
         mags[] = {
             { "EAL_16Rnd_9x21_Mag", "TASERMUNITION", 3000, 3, { "", "", -1 } },
@@ -856,13 +868,15 @@ class WeaponShops {
 			{ "EAL_20Rnd_556x45_UW_mag", "TASERMUNITION", 5000, 5, { "", "", -1 } },
 			{ "EAL_9Rnd_45ACP_Mag", "RUBBERBALLMUNITION", 10000, 10, { "", "", -1 } },
 			{ "EAL_11Rnd_45ACP_Mag", "RUBBERBALLMUNITION", 12000, 12, { "", "", -1 } },
+			{ "EAL_7Rnd_408_Mag", "RUBBERBALLMUNITION", 6500000, 6500, { "", "", -1 } },
 			{ "30Rnd_9x21_Mag", "", 100000, 100, { "", "", -1 } },
 			{ "RH_15Rnd_9x19_SIG", "", 200000, 200, { "", "", -1 } },
 			{ "hlc_30Rnd_9x19_B_MP5", "", 650000, 650, { "", "", -1 } },
 			{ "EAL_30Rnd_556x45_Stanag_Tracer_Red", "F2000 RUBBERBALLMUNITION", 100000, 100, { "", "", -1 } },
 			{ "hlc_30rnd_556x45_EPR_G36", "", 300000, 300, { "", "", -1 } },
 			{ "hlc_30rnd_556x45_SOST_G36", "", 350000, 350, { "", "", -1 } },
-			{ "hlc_30rnd_556x45_SPR_G36", "", 450000, 450, { "", "", -1 } }
+			{ "hlc_30rnd_556x45_SPR_G36", "", 450000, 450, { "", "", -1 } },
+			{ "EAL_200Rnd_65x39_cased_Box_Tracer", "RUBBERBALLMUNITION", 5000000, 5000, { "", "", -1 } }
         };
         accs[] = {
             //Optic Section
@@ -872,7 +886,13 @@ class WeaponShops {
 			{ "SMA_MICRO_T2", "", 700000, 700, { "", "", -1 } },
 			{ "optic_Hamr", "", 800000, 800, { "", "", -1 } },
 			{ "SMA_ELCAN_SPECTER", "", 800000, 800, { "", "", -1 } },
-			{ "sma_spitfire_01_sc_black", "", 800000, 800, { "", "", -1 } }
+			{ "sma_spitfire_01_sc_black", "", 800000, 800, { "", "", -1 } },
+			{ "optic_NVS", "", 7500000, 7500, { "", "", -1 } },
+			{ "optic_tws", "", 9000000, 9000, { "", "", -1 } },
+			{ "optic_SOS", "", 10000000, 10000, { "", "", -1 } },
+			{ "optic_SOS_khk_F", "", 10000000, 10000, { "", "", -1 } },
+			{ "optic_LRPS", "", 11000000, 11000, { "", "", -1 } },
+			{ "optic_LRPS_tna_F", "", 11000000, 11000, { "", "", -1 } }
         };
     };
 
