@@ -80,7 +80,7 @@ player createDiarySubject ["controls","Steuerung"];
 					- = entfernt<br/>
 					~ = verändert<br/>
 					<br/>
-					23.02.2017 Modfix/Medic v0.0.3.4<br/>
+					25.02.2017 Modfix/Medic v0.0.3.4<br/>
 					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war. #8<br/>
 					- RDS Civ Pack aus Modset und Shops entfernt, da es bei Benutzung Abstürtze von allen Clients und vom Server gab. #17<br/>
 					+ SMA Waffen in Modset aufgenommen und in Shops eingefügt. #8<br/>
@@ -101,6 +101,9 @@ player createDiarySubject ["controls","Steuerung"];
 					+ Textur zu Truck Box (Mdeics) hinzugefügt. #28<br/>
 					+ Blaulichter zu Medicfahrzeugen hinzugefügt. #28<br/>
 					+ EC-635 und UH1 in Medicshop hinzugefügt.<br/>
+					+ Die meisten neuen Fahrzeuge in Shops eingefügt. #24<br/>
+					~ Paycheck bei Medics ist nun levelbasierend. #33<br/>
+					+ Schwarzmarkshops gefixt. #34<br/>
 					<br/>
 					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>

@@ -61,6 +61,8 @@ Scenic_Pn ...
 ivory_wrx_unmarked
 ivory_wrx_marked ...
 ivory_wrx_slicktop ...
+308_bac
+ivory_m3_unmarked
 
 //Medics
 DAR_TahoeEMS
@@ -110,11 +112,9 @@ Megane_Estate_civ_gris
 Megane_Estate_civ_noir
 Megane_Estate_civ_yellow
 Peugeot_308_civ
- Peugeot_308_civ_noir
+Peugeot_308_civ_noir
 Peugeot_308_civ_rouge
 Peugeot_308_civ_gris
-308_bac
-Peugeot_308_civ_rouge
 Peugeot_308_civ_bleu
 Peugeot_308_civ_yellow
 Renault_ClioIV_civ_bleu
@@ -139,11 +139,11 @@ ivory_rs4
 ivory_rs4_taxi
 Audi_S8_F
 ivory_m3
-ivory_m3_unmarked
 Jonzie_Escalade
 ivory_suburban
 ivory_isf
 ivory_gti
+ivory_evox
 
 
 //Gebrauchtwagen
@@ -169,23 +169,8 @@ Renault_Clio_civ_yellow
 Renault_Clio_civ_noir
 Renault_Clio_civ_rouge
 ivory_e36
-sab_followme_car
-LandRover_TK_CIV_EP1
 ivory_190e
 ivory_190e_taxi
-ivory_evox
-Sal_ford_gran_black
-Sal_ford_gran_aqua
-Sal_ford_gran_red
-Sal_ford_gran_white
-Sal_ford_gran_green
-Sal_ford_gran_pink
-Sal_ford_gran_orange
-Sal_ford_gran_yellow
-Sal_ford_gran_darkgreen
-Sal_ford_gran_darkblue
-Sal_ford_gran_purple
-Sal_ford_gran_darkred
 ivory_gt500
 Jonzie_Corolla
 ivory_supra

@@ -10350,6 +10350,17 @@
             <Polish>Zbrojownia rebelianta</Polish>
             <Italian>Armeria della Guerriglia</Italian>
         </Key>
+		<Key ID="STR_MAR_Rebel_Weapon_Shop_Cop">
+            <Original>Police Weapon Shop</Original>
+            <Czech>Rebel obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes rebel</French>
+            <Spanish>Tienda de Armas Rebeldes</Spanish>
+            <Russian></Russian>
+            <German>Polizei-Waffenladen</German>
+            <Portuguese>Loja de Armas Rebeldes</Portuguese>
+            <Polish>Zbrojownia rebelianta</Polish>
+            <Italian>Armeria della Guerriglia</Italian>
+        </Key>
 		<Key ID="STR_MAR_Schwarz_Weapon_Shop">
             <Original>Black Market Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>

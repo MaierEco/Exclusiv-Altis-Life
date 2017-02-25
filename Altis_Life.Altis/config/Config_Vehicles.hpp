@@ -30,6 +30,16 @@ class CarShops {
             { "Jonzie_STI", { "", "", -1 } },
             { "ivory_wrx", { "", "", -1 } },
             { "Jonzie_Corolla", { "", "", -1 } },
+			{ "Renault_Clio_civ", { "", "", -1 } },
+			{ "Renault_Clio_civ_bleu", { "", "", -1 } },
+			{ "Renault_Clio_civ_gris", { "", "", -1 } },
+			{ "Renault_Clio_civ_yellow", { "", "", -1 } },
+			{ "Renault_Clio_civ_noir", { "", "", -1 } },
+			{ "Renault_Clio_civ_rouge", { "", "", -1 } },
+			{ "ivory_190e", { "", "", -1 } },
+			{ "ivory_supra", { "", "", -1 } },
+			{ "ivory_gt500", { "", "", -1 } },
+			{ "ivory_e36", { "", "", -1 } },
 			{ "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
@@ -38,6 +48,20 @@ class CarShops {
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
 			{ "C_Hatchback_01_beigecustom_F", { "", "", -1 } },
 			{ "SUV_01_base_orange_F", { "", "", -1 } },
+			{ "ivory_190e_taxi", { "", "", -1 } },
+			{ "ivory_rs4_taxi", { "", "", -1 } },
+			{ "Peugeot_308_civ", { "", "", -1 } },
+			{ "Peugeot_308_civ_noir", { "", "", -1 } },
+			{ "Peugeot_308_civ_rouge", { "", "", -1 } },
+			{ "Peugeot_308_civ_gris", { "", "", -1 } },
+			{ "Peugeot_308_civ_bleu", { "", "", -1 } },
+			{ "Peugeot_308_civ_yellow", { "", "", -1 } },
+			{ "Megane_Estate_civ", { "", "", -1 } },
+			{ "Megane_Estate_civ_bleu", { "", "", -1 } },
+			{ "Megane_Estate_civ_rouge", { "", "", -1 } },
+			{ "Megane_Estate_civ_gris", { "", "", -1 } },
+			{ "Megane_Estate_civ_noir", { "", "", -1 } },
+			{ "Megane_Estate_civ_yellow", { "", "", -1 } },
 			{ "Jonzie_Raptor", { "", "", -1 } },
 			{ "Jonzie_VE", { "", "", -1 } },
 			{ "Jonzie_Ute", { "", "", -1 } },
@@ -55,13 +79,57 @@ class CarShops {
 			{ "DAR_TaurusCivBlack", { "", "", -1 } },
 			{ "DAR_TaurusCivBlue", { "", "", -1 } },
 			{ "DAR_TaurusCiv", { "", "", -1 } },
-            { "Jonzie_XB", { "", "", -1 } },
+			{ "Renault_ClioIV_civ_bleu", { "", "", -1 } },
+			{ "Renault_ClioIV_civ", { "", "", -1 } },
+			{ "Renault_ClioIV_civ_yellow", { "", "", -1 } },
+			{ "Renault_ClioIV_civ_gris", { "", "", -1 } },
+			{ "Renault_ClioIV_civ_rouge", { "", "", -1 } },
+			{ "Renault_ClioIV_civ_noir", { "", "", -1 } },
+			{ "Renault_Espace_civ", { "", "", -1 } },
+			{ "Renault_Espace_civ_bleu", { "", "", -1 } },
+			{ "Renault_Espace_civ_gris", { "", "", -1 } },
+			{ "Renault_Espace_civ_yellow", { "", "", -1 } },
+			{ "Renault_Espace_civ_noir", { "", "", -1 } },
+			{ "Renault_Espace_civ_rouge", { "", "", -1 } },
+			{ "Renault_Scenic_civ", { "", "", -1 } },
+			{ "Renault_Scenic_civ_gris", { "", "", -1 } },
+			{ "Renault_Scenic_civ_bleu", { "", "", -1 } },
+			{ "Renault_Scenic_civ_yellow", { "", "", -1 } },
+			{ "Renault_Scenic_civ_noir", { "", "", -1 } },
+			{ "Renault_Scenic_civ_rouge", { "", "", -1 } },
+			{ "Dacia_Duster_civ", { "", "", -1 } },
+			{ "Dacia_Duster_civ_bleu", { "", "", -1 } },
+			{ "Dacia_Duster_civ_gris", { "", "", -1 } },
+			{ "Dacia_Duster_civ_noir", { "", "", -1 } },
+			{ "Dacia_Duster_civ_yellow", { "", "", -1 } },
+			{ "Dacia_Duster_civ_rouge", { "", "", -1 } },
+			{ "ivory_suburban", { "", "", -1 } },
+			{ "ivory_isf", { "", "", -1 } },
+			{ "ivory_gti", { "", "", -1 } },
+			{ "ivory_evox", { "", "", -1 } },
+			{ "ivory_rs4", { "", "", -1 } },
+			{ "Audi_S8_F", { "", "", -1 } },
+			{ "ivory_m3", { "", "", -1 } },
+			{ "Jonzie_XB", { "", "", -1 } },
             { "Jonzie_Viper", { "", "", -1 } },
-            { "ivory_c", { "", "", -1 } },
+			{ "ivory_c", { "", "", -1 } },
             { "DAR_ChallengerCivWhite", { "", "", -1 } },
             { "DAR_ChallengerCivRed", { "", "", -1 } },
             { "DAR_ChallengerCivOrange", { "", "", -1 } },
             { "DAR_ChallengerCivBlack", { "", "", -1 } },
+			{ "red_camaro_12_pink", { "", "", -1 } },
+			{ "red_camaro_12_aqua", { "", "", -1 } },
+			{ "red_camaro_12_black", { "", "", -1 } },
+			{ "red_camaro_12_darkgreen", { "", "", -1 } },
+			{ "red_camaro_12_darkblue", { "", "", -1 } },
+			{ "red_camaro_12_blue", { "", "", -1 } },
+			{ "red_camaro_12_green", { "", "", -1 } },
+			{ "red_camaro_12_darkred", { "", "", -1 } },
+			{ "red_camaro_12_orange", { "", "", -1 } },
+			{ "red_camaro_12_yellow", { "", "", -1 } },
+			{ "red_camaro_12_purple", { "", "", -1 } },
+			{ "red_camaro_12_white", { "", "", -1 } },
+			{ "AC1D_ford_mustang_NFS_SPEC", { "", "", -1 } },
 			{ "Tal_Murci_PC", { "", "", -1 } },
             { "Tal_Murci_Orange", { "", "", -1 } },
             { "Tal_Murci_Lime", { "", "", -1 } },
@@ -104,7 +172,12 @@ class CarShops {
             { "S_McLarenP1_White", { "", "", -1 } },
             { "S_McLarenP1_Yellow", { "", "", -1 } },
             { "ivory_lfa", { "", "", -1 } },
-            { "Jonzie_Quattroporte", { "", "", -1 } }
+			{ "ivory_elise", { "", "", -1 } },
+			{ "ivory_f1", { "", "", -1 } },
+			{ "ivory_mp4", { "", "", -1 } },
+			{ "ivory_r34", { "", "", -1 } },
+            { "Jonzie_Quattroporte", { "", "", -1 } },
+			{ "ivory_veyron", { "", "", -1 } }
         };
     };
 
@@ -1013,23 +1086,24 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	
 	class Jonzie_Raptor : C_Hatchback_01_F {
         price = 120000;
+		textures[] = {};
     };
 	
-	class Jonzie_Ceed : C_Hatchback_01_F {
+	class Jonzie_Ceed : Jonzie_Raptor {
 		price = 70000;
 	};
 	
-	class Jonzie_VE : C_Hatchback_01_F {
+	class Jonzie_VE : Jonzie_Raptor {
         price = 80000;
     };
 	
 	class Jonzie_Ute : Jonzie_VE {};
 	
-	class IVORY_R8SPYDER : C_Hatchback_01_F {
+	class IVORY_R8SPYDER : Jonzie_Raptor {
 		price = 200000;
 	};
 	
-	class DAR_TahoeCivBlack : C_Hatchback_01_F {
+	class DAR_TahoeCivBlack : Jonzie_Raptor {
         price = 88000;
     };
 	
@@ -1038,7 +1112,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class DAR_TahoeCivSilver : DAR_TahoeCivBlack {};
 	class DAR_TahoeCiv : DAR_TahoeCivBlack {};
 	
-	class DAR_FusionCivBlack : C_Hatchback_01_F {
+	class DAR_FusionCivBlack : Jonzie_Raptor {
 		price = 82000;
 	};
 	class DAR_FusionCivBlue : DAR_FusionCivBlack {};
@@ -1048,14 +1122,95 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class DAR_TaurusCivBlue : Jonzie_VE {};
 	class DAR_TaurusCiv : Jonzie_VE {};
 	
-	class Jonzie_30CSL : C_Hatchback_01_F {
+	class Jonzie_30CSL : Jonzie_Raptor {
         price = 30000;
     };
+	
+	class Dacia_Duster_civ : Jonzie_VE {
+        price = 90000;
+    };
+	class Dacia_Duster_civ_bleu : Dacia_Duster_civ {};
+	class Dacia_Duster_civ_gris : Dacia_Duster_civ {};
+	class Dacia_Duster_civ_noir : Dacia_Duster_civ {};
+	class Dacia_Duster_civ_yellow : Dacia_Duster_civ {};
+	class Dacia_Duster_civ_rouge : Dacia_Duster_civ {};
+	class Megane_Estate_civ : Dacia_Duster_civ {};
+	class Megane_Estate_civ_bleu : Dacia_Duster_civ {};
+	class Megane_Estate_civ_rouge : Dacia_Duster_civ {};
+	class Megane_Estate_civ_gris : Dacia_Duster_civ {};
+	class Megane_Estate_civ_noir : Dacia_Duster_civ {};
+	class Megane_Estate_civ_yellow : Dacia_Duster_civ {};
+	
+	class Peugeot_308_civ : Dacia_Duster_civ {
+		price = 65000;
+	};
+	class Peugeot_308_civ_noir : Peugeot_308_civ {};
+	class Peugeot_308_civ_rouge : Peugeot_308_civ {};
+	class Peugeot_308_civ_gris : Peugeot_308_civ {};
+	class Peugeot_308_civ_bleu : Peugeot_308_civ {};
+	class Peugeot_308_civ_yellow : Peugeot_308_civ {};
+	class Renault_ClioIV_civ_bleu : Dacia_Duster_civ {};
+	class Renault_ClioIV_civ : Dacia_Duster_civ {};
+	class Renault_ClioIV_civ_yellow : Dacia_Duster_civ {};
+	class Renault_ClioIV_civ_gris : Dacia_Duster_civ {};
+	class Renault_ClioIV_civ_rouge : Dacia_Duster_civ {};
+	class Renault_ClioIV_civ_noir : Dacia_Duster_civ {};
+	
+	class Renault_Espace_civ : Dacia_Duster_civ {
+		price = 80000;
+	};
+	class Renault_Espace_civ_bleu : Renault_Espace_civ {};
+	class Renault_Espace_civ_gris : Renault_Espace_civ {};
+	class Renault_Espace_civ_yellow : Renault_Espace_civ {};
+	class Renault_Espace_civ_noir : Renault_Espace_civ {};
+	class Renault_Espace_civ_rouge : Renault_Espace_civ {};
+	
+	class Renault_Scenic_civ : Dacia_Duster_civ {
+		price = 85000;
+	};
+	class Renault_Scenic_civ_gris : Renault_Scenic_civ {};
+	class Renault_Scenic_civ_bleu : Renault_Scenic_civ {};
+	class Renault_Scenic_civ_yellow : Renault_Scenic_civ {};
+	class Renault_Scenic_civ_noir : Renault_Scenic_civ {};
+	class Renault_Scenic_civ_rouge : Renault_Scenic_civ {};
+	
+	class ivory_rs4 : Dacia_Duster_civ {
+		price = 150000;
+	};
+	
+	class ivory_rs4_taxi : ivory_rs4 {
+		licenses[] = { {"taxi"}, {""}, {""}, {""} };
+	};
+	
+	class Audi_S8_F : Dacia_Duster_civ {
+		price = 250000;
+	};
+	
+	class ivory_e36 : Dacia_Duster_civ {
+		price = 90000;
+	};
+	class ivory_gt500 : ivory_e36 {};
+	
+	class ivory_190e : Dacia_Duster_civ {
+		price = 70000;
+	};
+	class ivory_supra : ivory_190e {};
+	
+	class ivory_190e_taxi : Dacia_Duster_civ {
+		price = 70000;
+		licenses[] = { {"taxi"}, {""}, {""}, {""} };
+	};
+	
+	class ivory_m3 : Audi_S8_F {};
+	class ivory_suburban : ivory_rs4 {};
+	class ivory_isf : ivory_rs4 {};
+	class ivory_gti : ivory_rs4 {};
+	class ivory_evox : ivory_rs4 {};
 	
 	class Jonzie_Datsun_510 : Jonzie_30CSL {};
 	class Jonzie_Datsun_Z432 : Jonzie_30CSL {};
 	
-	class S_Skyline_Yellow : C_Hatchback_01_F {
+	class S_Skyline_Yellow : Jonzie_Raptor {
 		price = 55000;
 	};
 	class S_Skyline_White : S_Skyline_Yellow {};
@@ -1064,20 +1219,28 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class S_Skyline_Blue : S_Skyline_Yellow {};
 	class S_Skyline_Purple : S_Skyline_Yellow {};
 	
-	class Jonzie_Mini_Cooper : C_Hatchback_01_F {
+	class Jonzie_Mini_Cooper : Jonzie_Raptor {
 		price = 18000;
 	};
 	
-	class Jonzie_Mini_Cooper_R_spec : C_Hatchback_01_F {
+	class Jonzie_Mini_Cooper_R_spec : Jonzie_Raptor {
         price = 25000;
     };
 	
 	class Jonzie_Galant : Jonzie_30CSL {};
 	class Jonzie_STI : Jonzie_30CSL {};
-	class ivory_wrx : shounka_clk {};
+	class ivory_wrx : Jonzie_30CSL {};
 	class Jonzie_Corolla : Jonzie_Mini_Cooper_R_spec {};
+	class Renault_Clio_civ : Jonzie_Mini_Cooper_R_spec {
+		price = 28000;
+	};
+	class Renault_Clio_civ_bleu : Renault_Clio_civ {};
+	class Renault_Clio_civ_gris : Renault_Clio_civ {};
+	class Renault_Clio_civ_yellow : Renault_Clio_civ {};
+	class Renault_Clio_civ_noir : Renault_Clio_civ {};
+	class Renault_Clio_civ_rouge : Renault_Clio_civ {};
 	
-	class Tal_Murci_PC : C_Hatchback_01_F {
+	class Tal_Murci_PC : Jonzie_Raptor {
         price = 300000;
     };
 	
@@ -1094,7 +1257,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Tal_Murci_White : Tal_Murci_PC {};
 	class Tal_Murci_Yellow : Tal_Murci_PC {};
 	
-	class Tal_Maserati_Yellow : C_Hatchback_01_F {
+	class Tal_Maserati_Yellow : Jonzie_Raptor {
         price = 350000;
     };
 	
@@ -1110,7 +1273,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class Tal_Maserati_Blue : Tal_Maserati_Yellow {};
 	class Tal_Maserati_Black : Tal_Maserati_Yellow {};
 	
-	class S_PorscheRS_Black : C_Hatchback_01_F {
+	class S_PorscheRS_Black : Jonzie_Raptor {
         price = 250000;
     };
 	
@@ -1130,11 +1293,19 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class S_McLarenP1_White : Tal_Maserati_Yellow {};
 	class S_McLarenP1_Yellow : Tal_Maserati_Yellow {};
 	class ivory_lfa : Tal_Maserati_Yellow {};
+	class ivory_elise : Tal_Maserati_Yellow {};
+	class ivory_f1 : Tal_Maserati_Yellow {};
+	class ivory_mp4 : Tal_Maserati_Yellow {};
+	class ivory_r34 : Tal_Maserati_Yellow {};
 	class Jonzie_Quattroporte : Tal_Maserati_Yellow {};
 	class Jonzie_XB : S_PorscheRS_Black {};
 	class Jonzie_Viper : S_PorscheRS_Black {};
 	
-	class ivory_c : C_Hatchback_01_F {
+	class ivory_veyron : Tal_Maserati_Yellow {
+		price = 400000;
+	};
+	
+	class ivory_c : Jonzie_Raptor {
         price = 190000;
     };
 	
@@ -1142,6 +1313,22 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class DAR_ChallengerCivRed : DAR_FusionCivBlack {};
 	class DAR_ChallengerCivOrange : DAR_FusionCivBlack {};
 	class DAR_ChallengerCivBlack : DAR_FusionCivBlack {};
+	
+	class red_camaro_12_pink : DAR_FusionCivBlack {
+		price = 200000;
+	};
+	class red_camaro_12_aqua : red_camaro_12_pink {};
+	class red_camaro_12_black : red_camaro_12_pink {};
+	class red_camaro_12_darkgreen : red_camaro_12_pink {};
+	class red_camaro_12_darkblue : red_camaro_12_pink {};
+	class red_camaro_12_blue : red_camaro_12_pink {};
+	class red_camaro_12_green : red_camaro_12_pink {};
+	class red_camaro_12_darkred : red_camaro_12_pink {};
+	class red_camaro_12_orange : red_camaro_12_pink {};
+	class red_camaro_12_yellow : red_camaro_12_pink {};
+	class red_camaro_12_purple : red_camaro_12_pink {};
+	class red_camaro_12_white : red_camaro_12_pink {};
+	class AC1D_ford_mustang_NFS_SPEC : red_camaro_12_pink {};
 	
     class C_SUV_01_F {
         vItemSpace = 10;
