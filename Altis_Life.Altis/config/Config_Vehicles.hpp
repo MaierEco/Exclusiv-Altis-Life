@@ -117,18 +117,6 @@ class CarShops {
             { "DAR_ChallengerCivRed", { "", "", -1 } },
             { "DAR_ChallengerCivOrange", { "", "", -1 } },
             { "DAR_ChallengerCivBlack", { "", "", -1 } },
-			{ "red_camaro_12_pink", { "", "", -1 } },
-			{ "red_camaro_12_aqua", { "", "", -1 } },
-			{ "red_camaro_12_black", { "", "", -1 } },
-			{ "red_camaro_12_darkgreen", { "", "", -1 } },
-			{ "red_camaro_12_darkblue", { "", "", -1 } },
-			{ "red_camaro_12_blue", { "", "", -1 } },
-			{ "red_camaro_12_green", { "", "", -1 } },
-			{ "red_camaro_12_darkred", { "", "", -1 } },
-			{ "red_camaro_12_orange", { "", "", -1 } },
-			{ "red_camaro_12_yellow", { "", "", -1 } },
-			{ "red_camaro_12_purple", { "", "", -1 } },
-			{ "red_camaro_12_white", { "", "", -1 } },
 			{ "AC1D_ford_mustang_NFS_SPEC", { "", "", -1 } },
 			{ "Tal_Murci_PC", { "", "", -1 } },
             { "Tal_Murci_Orange", { "", "", -1 } },
@@ -1314,21 +1302,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	class DAR_ChallengerCivOrange : DAR_FusionCivBlack {};
 	class DAR_ChallengerCivBlack : DAR_FusionCivBlack {};
 	
-	class red_camaro_12_pink : DAR_FusionCivBlack {
+	class AC1D_ford_mustang_NFS_SPEC : DAR_FusionCivBlack {
 		price = 200000;
 	};
-	class red_camaro_12_aqua : red_camaro_12_pink {};
-	class red_camaro_12_black : red_camaro_12_pink {};
-	class red_camaro_12_darkgreen : red_camaro_12_pink {};
-	class red_camaro_12_darkblue : red_camaro_12_pink {};
-	class red_camaro_12_blue : red_camaro_12_pink {};
-	class red_camaro_12_green : red_camaro_12_pink {};
-	class red_camaro_12_darkred : red_camaro_12_pink {};
-	class red_camaro_12_orange : red_camaro_12_pink {};
-	class red_camaro_12_yellow : red_camaro_12_pink {};
-	class red_camaro_12_purple : red_camaro_12_pink {};
-	class red_camaro_12_white : red_camaro_12_pink {};
-	class AC1D_ford_mustang_NFS_SPEC : red_camaro_12_pink {};
 	
     class C_SUV_01_F {
         vItemSpace = 10;
