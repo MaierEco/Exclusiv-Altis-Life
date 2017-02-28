@@ -437,9 +437,9 @@ class Clothing {
 			{ "EAL_uniform_pullover_19", $STR_C_Cop_uniforms_pullover, 25, "call life_coplevel == 19" },
 			{ "EAL_uniform_pullover_20", $STR_C_Cop_uniforms_pullover, 25, "call life_coplevel == 20" },
 			{ "U_B_Wetsuit", "Tauchanzug", 10000, "call life_coplevel >= 6" },
-			{ "U_B_FullGhillie_lsh", "Ghillie grün", 10000, "call life_coplevel == 20 && license_cop_jan" },
-			{ "U_B_FullGhillie_sard", "Ghillie halbtrocken", 10000, "call life_coplevel == 20 && license_cop_jan" },
-			{ "U_B_FullGhillie_ard", "Ghillie trocken", 10000, "call life_coplevel == 20 && license_cop_jan" }
+			{ "U_B_FullGhillie_lsh", "Ghillie grün", 10000, "license_cop_jan" },
+			{ "U_B_FullGhillie_sard", "Ghillie halbtrocken", 10000, "license_cop_jan" },
+			{ "U_B_FullGhillie_ard", "Ghillie trocken", 10000, "license_cop_jan" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
@@ -453,9 +453,9 @@ class Clothing {
 			{ "H_Beret_Colonel", "PD Beret", 75, "call life_coplevel == 15" },
 			{ "H_Beret_Colonel", "PD Beret", 75, "call life_coplevel == 15" },
 			{ "H_Beret_02", "PP Beret", 75, "call life_coplevel >= 17" },
-			{ "H_HelmetB_light_black", "Helm schwarz", 75, "call life_coplevel == 20 && license_cop_jan" },
-			{ "EAL_balaclava", "", 75, "call life_coplevel == 20 && license_cop_jan" },
-			{ "EAL_helmet_visor", "", 75, "call life_coplevel == 20 && license_cop_jan" }
+			{ "H_HelmetB_light_black", "Helm schwarz", 75, "license_cop_jan" },
+			{ "EAL_balaclava", "", 75, "license_cop_jan" },
+			{ "EAL_helmet_visor", "", 75, "license_cop_jan" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
@@ -495,9 +495,9 @@ class Clothing {
 			{ "V_BandollierB_blk", "Polizeigurt", 25000, "call life_coplevel >= 15" },
 			{ "TAC_V_CTBA", "Polizei-Plattenträger", 95000, "call life_coplevel >= 16" },
 			{ "TAC_V_CTBA2", "Polizei-Plattenträger", 95000, "call life_coplevel >= 16" },
-			{ "EAL_polizei_plattentraeger_leicht", "schwerere Polizeiweste", 50000, "call life_coplevel >= 17 || license_cop_jan" },
-			{ "EAL_polizei_plattentraeger_schwer", "sehr schwere Polizeiweste", 50000, "call life_coplevel >= 18 || license_cop_jan" },
-			{ "EAL_polizei_plattentraeger_breacher", "schwerste Polizeiweste", 50000, "call life_coplevel >= 19 || license_cop_jan" }
+			{ "EAL_polizei_plattentraeger_leicht", "schwerere Polizeiweste", 50000, "(call life_coplevel >= 17) || license_cop_jan" },
+			{ "EAL_polizei_plattentraeger_schwer", "sehr schwere Polizeiweste", 50000, "(call life_coplevel >= 18) || license_cop_jan" },
+			{ "EAL_polizei_plattentraeger_breacher", "schwerste Polizeiweste", 50000, "(call life_coplevel >= 19) || license_cop_jan" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },

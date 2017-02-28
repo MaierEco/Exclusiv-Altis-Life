@@ -290,6 +290,14 @@ class Licenses {
         illegal = false;
         side = "cop";
     };
+	
+	class jan {
+        variable = "jan";
+        displayName = "STR_License_Jan";
+        price = 8000;
+        illegal = false;
+        side = "cop";
+    };
 
     //Medic Licenses
     class mDriver {
