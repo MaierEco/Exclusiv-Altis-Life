@@ -10979,6 +10979,17 @@
             <Portuguese>Taser Rifle Magazine</Portuguese>
             <Polish>Taser Rifle Magazine</Polish>
         </Key>
+		<Key ID="STR_W_items_TaserSMG">
+            <Original>TASER SMG</Original>
+            <Czech>Taser SMG</Czech>
+            <Spanish>Taser SMG</Spanish>
+            <Russian>Taser SMG</Russian>
+            <German>ELEKTROSCHOCK-MP</German>
+            <French>Taser SMG</French>
+            <Italian>Taser SMG</Italian>
+            <Portuguese>Taser SMG</Portuguese>
+            <Polish>Taser SMG</Polish>
+        </Key>
 		<Key ID="STR_W_items_RubberPistol">
             <Original>RUBBERBALL PISTOL</Original>
             <Czech>Rubberball Pistol</Czech>
