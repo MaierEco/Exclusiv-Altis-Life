@@ -86,6 +86,7 @@ player createDiarySubject ["controls","Steuerung"];
 					+ Neues Admintool hinzugefügt. #38<br/>
 					~ Global Sound gefixt.<br/>
 					~ Sound für Suicidevest/Suicidetruck gefixt. #22<br/>
+					+ Blaulicht zu 'Krankenwagen' hinzugefügt. #28<br/>
 					<br/>
 					<br/>
 					25.02.2017 Modfix/Medic v0.0.3.4<br/>
