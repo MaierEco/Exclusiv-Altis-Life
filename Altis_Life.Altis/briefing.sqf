@@ -82,6 +82,7 @@ player createDiarySubject ["controls","Steuerung"];
 					<br/>
 					03.03.2017 New Config v0.0.3.5<br/>
 					~ Config-Dateien auf 5.0-Standards abgeändert.<br/>
+					- Playertags richtig entfernt.<br/>
 					
 					25.02.2017 Modfix/Medic v0.0.3.4<br/>
 					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war. #8<br/>
