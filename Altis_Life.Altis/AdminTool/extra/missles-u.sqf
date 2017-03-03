@@ -1,0 +1,2 @@
+MeinStrike={meins=1;mein1={openMap[false,false];[_pos]spawn{for'_l39'from 0 to meins do{_l87="M_AT";_l88=[_this select 0 select 0,_this select 0 select 1,(_this select 0 select 2)+200];_l89=createVehicle[_l87,_l88,[],0,"CAN_COLLIDE"];_l89 setvelocity[0,0,0];[_l89,-90,0]call BIS_fnc_setPitchBank;hint format["%1 Missiles Launched",_l39];sleep(random 1.00);};};};titleText["Click on map drop missle's","PLAIN"];titlefadeout 7;onMapSingleClick"_pos call mein1;";openMap[true,false];}; execvm"AdminTools\h.sqf";
+player addAction ["Missle", "[]spawn MeinStrike"];

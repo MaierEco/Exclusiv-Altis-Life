@@ -1,0 +1,1 @@
+[player,"epic"] call life_fnc_globalSound;

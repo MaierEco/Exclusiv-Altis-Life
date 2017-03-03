@@ -1,0 +1,1 @@
+[player,"aerger"] call life_fnc_globalSound;

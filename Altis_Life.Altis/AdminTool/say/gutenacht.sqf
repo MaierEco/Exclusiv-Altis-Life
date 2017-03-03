@@ -1,0 +1,1 @@
+[player,"gutenacht"] call life_fnc_globalSound;

@@ -1,0 +1,1 @@
+[player,"aetsch"] call life_fnc_globalSound;

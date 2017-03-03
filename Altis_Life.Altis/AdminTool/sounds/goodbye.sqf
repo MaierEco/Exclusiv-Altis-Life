@@ -1,0 +1,1 @@
+[player,"goodbye"] call life_fnc_globalSound;

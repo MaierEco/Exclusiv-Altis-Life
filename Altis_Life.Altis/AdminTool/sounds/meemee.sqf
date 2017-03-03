@@ -1,0 +1,1 @@
+[player,"meemee"] call life_fnc_globalSound;

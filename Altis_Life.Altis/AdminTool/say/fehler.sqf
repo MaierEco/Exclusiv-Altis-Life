@@ -1,0 +1,1 @@
+[player,"fehler"] call life_fnc_globalSound;

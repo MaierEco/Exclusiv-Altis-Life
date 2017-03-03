@@ -1,0 +1,1 @@
+[player,"bennyhill"] call life_fnc_globalSound;

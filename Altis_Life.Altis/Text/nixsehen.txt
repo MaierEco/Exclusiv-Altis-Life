@@ -22,3 +22,6 @@
 
 
 [player,player] call ace_medical_fnc_treatmentAdvanced_fullHealLocal;
+
+
+[player,"aerger"] call life_fnc_globalSound;

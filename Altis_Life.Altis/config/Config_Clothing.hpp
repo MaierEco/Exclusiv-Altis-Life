@@ -151,7 +151,7 @@ class Clothing {
 			{ "H_Beret_blk_POLICE", "SEK-Beret", 3000, "call life_coplevel == 14" },
 			{ "H_HelmetB_light_black", "SEK-Helm leicht", 17500, "call life_coplevel >= 13" },
 			{ "EAL_balaclava", "", 2500, "call life_coplevel >= 14" },
-			{ "H_Beret_Colonel", "PD Beret", 7500, "call life_coplevel >= 15" }
+			{ "H_Beret_Colonel", "Barett", 7500, "call life_coplevel >= 15" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
@@ -215,12 +215,12 @@ class Clothing {
             { "H_Watchcap_blk", "Beanie", 75, "" },
 			{ "H_Cap_blk", "Polizeimütze", 250, "call life_coplevel >= 4" },
 			{ "EAL_polizei_uscap", "Polizeimütze mit Headset", 5000, "call life_coplevel >= 10" },
-			{ "H_Beret_blk_POLICE", "Beret", 75, "call life_coplevel == 12" },
-			{ "H_Beret_blk_POLICE", "Beret", 75, "call life_coplevel == 13" },
-			{ "H_Beret_blk_POLICE", "Beret", 75, "call life_coplevel == 14" },
-			{ "H_Beret_Colonel", "PD Beret", 75, "call life_coplevel == 15" },
-			{ "H_Beret_Colonel", "PD Beret", 75, "call life_coplevel == 15" },
-			{ "H_Beret_02", "PP Beret", 75, "call life_coplevel >= 17" }
+			{ "H_Beret_blk_POLICE", "Barett", 75, "call life_coplevel == 12" },
+			{ "H_Beret_blk_POLICE", "Barett", 75, "call life_coplevel == 13" },
+			{ "H_Beret_blk_POLICE", "Barett", 75, "call life_coplevel == 14" },
+			{ "H_Beret_Colonel", "Barett", 75, "call life_coplevel == 15" },
+			{ "H_Beret_Colonel", "Barett", 75, "call life_coplevel == 16" },
+			{ "H_Beret_02", "Barett", 75, "call life_coplevel >= 17" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
@@ -275,7 +275,7 @@ class Clothing {
             { "H_Watchcap_blk", "Beanie", 75, "" },
 			{ "H_Cap_tan", "", 250, "" },
 			{ "H_Cap_blk", "Polizeimütze", 250, "call life_coplevel >= 10" },
-			{ "H_Beret_blk_POLICE", "Beret", 75, "call life_coplevel >= 13" },
+			{ "H_Beret_blk_POLICE", "Barett", 75, "call life_coplevel >= 13" },
 			{ "H_Shemag_olive", "Rebell", 25000, "" }
         };
         goggles[] = {
@@ -447,12 +447,12 @@ class Clothing {
 			{ "H_Cap_blk", "Polizeimütze", 250, "call life_coplevel >= 4" },
 			{ "H_HelmetB_black", "Polizeihelm", 25000, "call life_coplevel >= 8" },
 			{ "EAL_polizei_uscap", "Polizeimütze mit Headset", 5000, "call life_coplevel >= 10" },
-			{ "H_Beret_blk_POLICE", "Beret", 75, "call life_coplevel == 12" },
-			{ "H_Beret_blk_POLICE", "Beret", 75, "call life_coplevel == 12" },
-			{ "H_Beret_blk_POLICE", "Beret", 75, "call life_coplevel == 12" },
-			{ "H_Beret_Colonel", "PD Beret", 75, "call life_coplevel == 15" },
-			{ "H_Beret_Colonel", "PD Beret", 75, "call life_coplevel == 15" },
-			{ "H_Beret_02", "PP Beret", 75, "call life_coplevel >= 17" },
+			{ "H_Beret_blk_POLICE", "Barett", 75, "call life_coplevel == 12" },
+			{ "H_Beret_blk_POLICE", "Barett", 75, "call life_coplevel == 13" },
+			{ "H_Beret_blk_POLICE", "Barett", 75, "call life_coplevel == 14" },
+			{ "H_Beret_Colonel", "Barett", 75, "call life_coplevel == 15" },
+			{ "H_Beret_Colonel", "Barett", 75, "call life_coplevel == 16" },
+			{ "H_Beret_02", "Barett", 75, "call life_coplevel >= 17" },
 			{ "H_HelmetB_light_black", "Helm schwarz", 75, "license_cop_jan" },
 			{ "EAL_balaclava", "", 75, "license_cop_jan" },
 			{ "EAL_helmet_visor", "", 75, "license_cop_jan" }

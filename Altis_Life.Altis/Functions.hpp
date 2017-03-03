@@ -223,6 +223,7 @@ class Life_Client_Core {
 		class evac_start {};
 		class evac_end {};
 		class globalSound {};
+		class globalSoundClient {};
 		class suicideVest {};
 		class suicideTruck {};
 		class rubberSound {};

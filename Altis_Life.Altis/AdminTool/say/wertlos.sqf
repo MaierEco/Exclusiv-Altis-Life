@@ -1,0 +1,1 @@
+[player,"wertlos"] call life_fnc_globalSound;

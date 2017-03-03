@@ -1,0 +1,1 @@
+[player,"kannst"] call life_fnc_globalSound;

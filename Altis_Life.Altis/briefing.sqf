@@ -81,9 +81,13 @@ player createDiarySubject ["controls","Steuerung"];
 					~ = verändert<br/>
 					<br/>
 					03.03.2017 New Config v0.0.3.5<br/>
-					~ Config-Dateien auf 5.0-Standards abgeändert.<br/>
-					- Playertags richtig entfernt.<br/>
-					
+					~ Config-Dateien auf 5.0-Standards abgeändert. #31<br/>
+					- Playertags richtig entfernt. #35<br/>
+					+ Neues Admintool hinzugefügt. #38<br/>
+					~ Global Sound gefixt.<br/>
+					~ Sound für Suicidevest/Suicidetruck gefixt. #22<br/>
+					<br/>
+					<br/>
 					25.02.2017 Modfix/Medic v0.0.3.4<br/>
 					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war. #8<br/>
 					- RDS Civ Pack aus Modset und Shops entfernt, da es bei Benutzung Abstürtze von allen Clients und vom Server gab. #17<br/>

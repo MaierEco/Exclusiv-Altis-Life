@@ -1,0 +1,13 @@
+GearAdd = (vehicle player);
+GearAdd addVest 'V_TacVest_oli';  
+GearAdd addHeadgear 'H_Shemag_olive';  
+GearAdd addUniform 'U_O_GhillieSuit'; 
+GearAdd addWeapon 'arifle_Katiba_ARCO_pointer_snds_F'; 
+GearAdd addBackpack 'B_Carryall_oli'; 
+GearAdd addWeapon 'ItemMap'; 
+GearAdd addWeapon 'ItemCompass'; 
+GearAdd addWeapon 'Rangefinder'; 
+GearAdd addWeapon 'ItemWatch'; 
+GearAdd addWeapon 'NVGoggles'; 
+GearAdd (unitBackpack player) addItemCargo["FirstAidKit",4]; 
+GearAdd (unitBackpack player) addMagazineCargo["30Rnd_65x39_caseless_green",15];

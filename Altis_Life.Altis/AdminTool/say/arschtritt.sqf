@@ -1,0 +1,1 @@
+[player,"arschtritt"] call life_fnc_globalSound;

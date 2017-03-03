@@ -1,0 +1,1 @@
+[player,"insbett"] call life_fnc_globalSound;

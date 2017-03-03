@@ -19,7 +19,8 @@ removeVest _bomber;
 player addvest "V_Chestrig_blk";
 
 //sound
-[_bomber,"allahu_akbar"] remoteExec ["life_fnc_say3D",RANY];
+//[_bomber,"allahu_akbar"] remoteExec ["life_fnc_say3D",RANY];
+[_bomber, "allahu_akbar", 25] call life_fnc_globalSound;
 
 sleep 5;
 [1,format["STR_NOTF_SuicideVestAllah", name _bomber]] remoteExecCall ["life_fnc_broadcast",RSERV];

@@ -1,0 +1,1 @@
+[player,"sani"] call life_fnc_globalSound;

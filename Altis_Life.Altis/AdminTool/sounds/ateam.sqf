@@ -1,0 +1,1 @@
+[player,"ateam"] call life_fnc_globalSound;

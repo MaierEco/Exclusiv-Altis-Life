@@ -1,0 +1,1 @@
+[player,"kacke"] call life_fnc_globalSound;
