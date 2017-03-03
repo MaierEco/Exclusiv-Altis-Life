@@ -80,7 +80,7 @@ player createDiarySubject ["controls","Steuerung"];
 					- = entfernt<br/>
 					~ = verändert<br/>
 					<br/>
-					28.02.2017 New Config v0.0.3.5<br/>
+					03.03.2017 New Config v0.0.3.5<br/>
 					~ Config-Dateien auf 5.0-Standards abgeändert.<br/>
 					
 					25.02.2017 Modfix/Medic v0.0.3.4<br/>

@@ -10935,6 +10935,61 @@
             <Portuguese>M84 Flashbang</Portuguese>
             <Polish>M84 Flashbang</Polish>
         </Key>
+		<Key ID="STR_W_items_Teargas">
+            <Original>Teargas</Original>
+            <Czech>Teargas</Czech>
+            <Spanish>Teargas</Spanish>
+            <Russian>Teargas</Russian>
+            <German>Tränengasgranate</German>
+            <French>Teargas</French>
+            <Italian>Teargas</Italian>
+            <Portuguese>Teargas</Portuguese>
+            <Polish>Teargas</Polish>
+        </Key>
+		<Key ID="STR_W_items_Marker">
+            <Original>LZ Marker</Original>
+            <Czech>LZ Marker</Czech>
+            <Spanish>LZ Marker</Spanish>
+            <Russian>LZ Marker</Russian>
+            <German>LZ-Markierung</German>
+            <French>LZ Marker</French>
+            <Italian>LZ Marker</Italian>
+            <Portuguese>LZ Marker</Portuguese>
+            <Polish>LZ Marker</Polish>
+        </Key>
+		<Key ID="STR_W_items_Radio">
+            <Original>Radio Programmer</Original>
+            <Czech>Radio Programmer</Czech>
+            <Spanish>Radio Programmer</Spanish>
+            <Russian>Radio Programmer</Russian>
+            <German>RF7800S Programmer</German>
+            <French>Radio Programmer</French>
+            <Italian>Radio Programmer</Italian>
+            <Portuguese>Radio Programmer</Portuguese>
+            <Polish>Radio Programmer</Polish>
+        </Key>
+		<Key ID="STR_W_items_PAK">
+            <Original>Bandages + Morphine</Original>
+            <Czech>Bandages + Morphine</Czech>
+            <Spanish>Bandages + Morphine</Spanish>
+            <Russian>Bandages + Morphine</Russian>
+            <German>Bandagen + Morphium</German>
+            <French>Bandages + Morphine</French>
+            <Italian>Bandages + Morphine</Italian>
+            <Portuguese>Bandages + Morphine</Portuguese>
+            <Polish>Bandages + Morphine</Polish>
+        </Key>
+		<Key ID="STR_W_items_Medikit">
+            <Original>Blood + Epinephrine</Original>
+            <Czech>Blood + Epinephrine</Czech>
+            <Spanish>Blood + Epinephrine</Spanish>
+            <Russian>Blood + Epinephrine</Russian>
+            <German>Blut + Epinephrin</German>
+            <French>Blood + Epinephrine</French>
+            <Italian>Blood + Epinephrine</Italian>
+            <Portuguese>Blood + Epinephrine</Portuguese>
+            <Polish>Blood + Epinephrine</Polish>
+        </Key>
         <Key ID="STR_W_items_StunPistol">
             <Original>TASER</Original>
             <Czech>Stun Pistol</Czech>
