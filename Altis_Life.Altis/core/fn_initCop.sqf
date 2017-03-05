@@ -64,38 +64,6 @@ if (!(str(player) in ["cop_100"])) then {
 player setVariable ["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;
 
-[] spawn   
-{
-	while {true} do
-    {
-		if((backpack player) == "B_Carryall_mcamo") then
-		{
-			(backpackContainer player) setObjectTextureGlobal [0,""];
-			sleep 5;
-		}
-		else
-		{
-			sleep 30;
-		};
-    };
-};
-
-[] spawn   
-{
-	while {true} do
-    {
-		if((backpack player) == "tf_anarc210") then
-		{
-			(backpackContainer player) setObjectTextureGlobal [0,""];
-			sleep 5;
-		}
-		else
-		{
-			sleep 30;
-		};
-    };
-};
-
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.
 

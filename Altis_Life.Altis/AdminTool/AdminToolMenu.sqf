@@ -184,6 +184,7 @@ WeaponsMenu2 =
 	["Quick Loadout", [3],  "", -5, [["expression", format[_EXECscript7,"quick.sqf"]]], "1", "1"],
 	["Rebellenkleidung", [4],  "", -5, [["expression", format[_EXECscript7,"rebeloutfit.sqf"]]], "1", "1"],
 	["Rucksack + Tools", [5],  "", -5, [["expression", format[_EXECscript7,"addBagpack.sqf"]]], "1", "1"],
+	["Adminoutfit", [6],  "", -5, [["expression", format[_EXECscript7,"admin.sqf"]]], "1", "1"],
 	["", [-1], "", -5, [["expression", ""]], "1", "0"],
 	["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
 ];

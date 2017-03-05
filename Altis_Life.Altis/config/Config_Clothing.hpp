@@ -146,9 +146,9 @@ class Clothing {
 			{ "EAL_helmet_visor", "", 30000, "call life_coplevel >= 9" },
 			{ "EAL_polizei_uscap", "SEK-Mütze", 2500, "call life_coplevel >= 9" },
 			{ "TRYK_H_headsetcap_blk_Glasses", "Mütze mit Brille", 2500, "call life_coplevel >= 10" },
-			{ "H_Beret_blk_POLICE", "SEK-Beret", 3000, "call life_coplevel == 12" },
-			{ "H_Beret_blk_POLICE", "SEK-Beret", 3000, "call life_coplevel == 13" },
-			{ "H_Beret_blk_POLICE", "SEK-Beret", 3000, "call life_coplevel == 14" },
+			{ "H_Beret_blk_POLICE", "Barett", 3000, "call life_coplevel == 12" },
+			{ "H_Beret_blk_POLICE", "Barett", 3000, "call life_coplevel == 13" },
+			{ "H_Beret_blk_POLICE", "Barett", 3000, "call life_coplevel == 14" },
 			{ "H_HelmetB_light_black", "SEK-Helm leicht", 17500, "call life_coplevel >= 13" },
 			{ "EAL_balaclava", "", 2500, "call life_coplevel >= 14" },
 			{ "H_Beret_Colonel", "Barett", 7500, "call life_coplevel >= 15" }

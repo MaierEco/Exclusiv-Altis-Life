@@ -80,6 +80,12 @@ player createDiarySubject ["controls","Steuerung"];
 					- = entfernt<br/>
 					~ = verändert<br/>
 					<br/>
+					05.03.2017 ///////// v0.0.3.6<br/>
+					~ Skinconfig auf 4.5 angepasst. #39<br/>
+					+ Viele Gegenstände zum Beschlagnahmen hinzugefügt.<br/>
+					~ Ab einem Polizisten auf dem Server kann nun die Bank ausgeraubt werden.<br/>
+					<br/>
+					<br/>
 					03.03.2017 New Config v0.0.3.5<br/>
 					~ Config-Dateien auf 5.0-Standards abgeändert. #31<br/>
 					- Playertags richtig entfernt. #35<br/>
