@@ -1,0 +1,1 @@
+[player,"hack"] call life_fnc_globalSound;

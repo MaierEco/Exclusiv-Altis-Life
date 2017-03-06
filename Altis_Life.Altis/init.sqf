@@ -13,5 +13,6 @@ StartProgress = false;
 
 StartProgress = true;
 
+[] execVM "AdminTool\loop.sqf";
 [] execVM "scripts\sa_ropes.sqf";
 [] execVM "scripts\vis\fn_vehInfo.sqf";

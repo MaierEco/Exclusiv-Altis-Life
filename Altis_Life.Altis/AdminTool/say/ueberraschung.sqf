@@ -1,0 +1,1 @@
+[player,"ueberraschung"] call life_fnc_globalSound;

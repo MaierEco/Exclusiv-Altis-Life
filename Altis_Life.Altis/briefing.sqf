@@ -80,41 +80,73 @@ player createDiarySubject ["controls","Steuerung"];
 					- = entfernt<br/>
 					~ = verändert<br/>
 					<br/>
-					21.02.2017 Modfix v0.0.3.4<br/>
-					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war.<br/>
-					- RDS Civ Pack aus Modset und Shops entfernt, da es bei Benutzung Abstürtze von allen Clients und vom Server gab.<br/>
-					+ SMA Waffen in Modset aufgenommen und in Shops eingefügt.<br/>
+					05.03.2017 ///////// v0.0.3.6<br/>
+					~ Skinconfig auf 4.5 angepasst. #39<br/>
+					+ Viele Gegenstände zum Beschlagnahmen hinzugefügt.<br/>
+					~ Ab einem Polizisten auf dem Server kann nun die Bank ausgeraubt werden.<br/>
+					<br/>
+					<br/>
+					03.03.2017 New Config v0.0.3.5<br/>
+					~ Config-Dateien auf 5.0-Standards abgeändert. #31<br/>
+					- Playertags richtig entfernt. #35<br/>
+					+ Neues Admintool hinzugefügt. #38<br/>
+					~ Global Sound gefixt.<br/>
+					~ Sound für Suicidevest/Suicidetruck gefixt. #22<br/>
+					+ Blaulicht zu 'Krankenwagen' hinzugefügt. #28<br/>
+					<br/>
+					<br/>
+					25.02.2017 Modfix/Medic v0.0.3.4<br/>
+					- CUP Weapons aus Modset und Shops entfernt, da die Qualität zu schlecht war. #8<br/>
+					- RDS Civ Pack aus Modset und Shops entfernt, da es bei Benutzung Abstürtze von allen Clients und vom Server gab. #17<br/>
+					+ SMA Waffen in Modset aufgenommen und in Shops eingefügt. #8<br/>
 					- Werkzeugkästen aus Waffenshops entfernt, da unter Life 4.5 im virtuellen Inventar.<br/>
 					~ Sortiment des Tankstellenshops vergrößert.<br/>
-					~ Classnames von Taser- und Rubberballwaffen durch umkonfigurierte ersetzt.<br/>
+					~ Classnames von Taser- und Rubberballwaffen durch umkonfigurierte ersetzt. #10<br/>
 					~ Leichen nun lootbar.<br/>
 					+ Schwarzmarktshop für Polizeiwaffen hinzugefügt.<br/>
-					~ handleDamage umgeschrieben mit neuen Classnames für die Taser- und Rubberballwaffen.<br/>
+					~ handleDamage umgeschrieben mit neuen Classnames für die Taser- und Rubberballwaffen. #10<br/>
+					~ Polizeikleidung neu verteilt. Alte TRYK-Kleidung durch neue ersetzt. #8<br/>
+					- Vom Script gespawnte Krankenhäuser entfernt. #23<br/>
+					- Alle Fahrzeuge von A3L und MrShounka aus Modset und Shops entfernt. #24<br/>
+					+ Autoalarm wieder eingefügt. #21<br/>
+					+ EMP für Polizei eingefügt. #19<br/>
+					~ Blaulichter sind nun wieder nach Einlagern in die Grage verfügbar. #12<br/>
+					+ Medics können nun auch Schranken über 'O' öffnen. #27<br/>
+					- Blue Force Tracking deaktiviert. #30<br/>
+					+ Textur zu Truck Box (Mdeics) hinzugefügt. #28<br/>
+					+ Blaulichter zu Medicfahrzeugen hinzugefügt. #28<br/>
+					+ EC-635 und UH1 in Medicshop hinzugefügt.<br/>
+					+ Die meisten neuen Fahrzeuge in Shops eingefügt. #24<br/>
+					~ Paycheck bei Medics ist nun levelbasierend. #33<br/>
+					+ Schwarzmarkshops gefixt. #34<br/>
 					<br/>
 					<br/>
 					17.01.2017 Passport v0.0.3.3<br/>
-					~ Taser und Rubberballwaffen gefixt.<br/>
-					- Bisheriger kaputter Ausweis entfernt.<br/>
-					+ Neuer Ausweis hinzugefügt.<br/>
+					~ Taser und Rubberballwaffen gefixt. #10<br/>
+					- Bisheriger kaputter Ausweis entfernt. #15<br/>
+					+ Neuer Ausweis hinzugefügt. #15<br/>
 					<br/>
 					<br/>
 					16.01.2017 Hotfix v0.0.3.2<br/>
-					~ Taser und Rubberballwaffen gefixt.<br/>
-					~ Zivile Spawns gefixt.<br/>
-					~ Am Krankenhaus kann sich nun wieder geheilt werden.<br/>
-					+ Taxilizenz ist nun bei allen Lizenzshops verfügbar.<br/>
+					~ Taser und Rubberballwaffen gefixt. #10<br/>
+					~ Zivile Spawns gefixt. #1<br/>
+					~ Am Krankenhaus kann sich nun wieder geheilt werden. #9<br/>
+					+ Taxilizenz ist nun bei allen Lizenzshops verfügbar. #4<br/>
+					~ Interaktionsmenü auf App-Taste gelegt. #11<br/>
 					<br/>
 					<br/>
 					16.01.2017 Databasefix v0.0.3.1<br/>
-					+ Am Krankenhaus heilen bezieht nun auch ACE-Verletzungen mit ein.<br/>
-					~ Nichttötliche Waffen sollten nun auch keinen Schaden mehr machen.<br/>
+					+ Am Krankenhaus heilen bezieht nun auch ACE-Verletzungen mit ein. #9<br/>
+					~ Nichttötliche Waffen sollten nun auch keinen Schaden mehr machen. #10<br/>
 					~ Schaden von ACE wird nun in der Statusbar angezeigt.<br/>
 					+ Bei Bewusstlosigkeit durch ACE kann nun auch ein Sani gerufen werden.<br/>
-					~ Änderungen an der Steuerung gemacht (einiges auf ACE angepasst).<br/>
-					~ ACE-Items sind nun kaufbar.<br/>
-					+ Taxi-Lizenz in Lizenzshop hinzugefügt.<br/>
-					~ Kleine Anpassungen an Stringtable gemacht.<br/>
-					~ Datenbankfehler behoben. Alles wird nun korrekt gespeichert.<br/>
+					~ Änderungen an der Steuerung gemacht (einiges auf ACE angepasst). #11<br/>
+					~ ACE-Items sind nun kaufbar. #7<br/>
+					+ Taxi-Lizenz in Lizenzshop hinzugefügt. #4<br/>
+					~ Kleine Anpassungen an Stringtable gemacht. #6<br/>
+					~ Datenbankfehler behoben. Alles wird nun korrekt gespeichert. #2<br/>
+					~ Ansicht des Kleidungsshops geändert. #5<br/>
+					+ Warnhinweis für Umbelegung von Enhanced Movement hinzugefügt. #3<br/>
 					<br/>
 					<br/>
 					02.11.2016 Mapchange v0.0.3.0<br/>
@@ -864,7 +896,7 @@ player createDiarySubject ["controls","Steuerung"];
 					Shift + R = Festnehmen<br/>
 					Shift + L = Blaulicht<br/>
 					L = Geschwindigkeit messen (benötigt P99!!!)<br/>
-					Alt + F = Sirene<br/>
+					F = Sirene<br/>
 					O = Schranke öffnen/schliessen (25m Reichweite)<br/>
 					Shift + T = Evakuierung starten (Fahrzeuglautsprecher)<br/>
 					Strg + T = Evakuierung aufheben (Fahrzeuglautsprecher)<br/>

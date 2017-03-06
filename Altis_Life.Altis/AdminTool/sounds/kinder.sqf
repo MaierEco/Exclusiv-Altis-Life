@@ -1,0 +1,1 @@
+[player,"kinder"] call life_fnc_globalSound;

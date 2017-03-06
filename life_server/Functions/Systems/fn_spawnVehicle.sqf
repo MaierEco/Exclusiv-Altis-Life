@@ -160,11 +160,11 @@ if ((_vInfo select 1) isEqualTo "civ" && (_vInfo select 2) isEqualTo "B_Heli_Lig
     [_vehicle,"civ_littlebird",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
-if ((_vInfo select 1) isEqualTo "cop" && ((_vInfo select 2)) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F"]) then {
+if ((_vInfo select 1) isEqualTo "cop" && ((_vInfo select 2)) in ["I_MRAP_03_F","B_MRAP_01_HMG_F","B_MRAP_01_GMG_F","C_Hatchback_01_sport_F","C_Hatchback_01_F","B_Heli_Light_01_F","I_Heli_light_03_unarmed_F","O_Heli_Light_02_unarmed_F","C_Van_01_box_F","B_G_Offroad_01_F","C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","B_Heli_Transport_01_F","B_Quadbike_01_F","EAL_Offroad_LanPol","EAL_Offroad_SEK","EAL_Hunter_LanPol","EAL_Hunter_LanPol_HMG","EAL_Hunter_LanPol_GMG","EAL_Hunter_BPol","EAL_Hunter_BPol_HMG","EAL_Hunter_BPol_GMG","EAL_Hunter_SEK","EAL_Hunter_SEK_HMG","EAL_Hunter_SEK_GMG","EAL_Strider","EAL_SUV","EAL_Humming","EAL_Orca","EAL_Ghosthawk","EAL_Limousine","EAL_Limousine_HW","EAL_Limousine_sport","EAL_Limousine_sport_HW"]) then {
     [_vehicle,"cop_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 
-if ((_vInfo select 1) isEqualTo "med" && (_vInfo select 2) isEqualTo "C_Offroad_01_F") then {
+if ((_vInfo select 1) isEqualTo "med" && (_vInfo select 2) isEqualTo "C_Offroad_01_F","C_Van_01_box_F","C_SUV_01_F","O_Heli_Light_02_unarmed_F") then {
     [_vehicle,"med_offroad",true] remoteExecCall ["life_fnc_vehicleAnimate",_unit];
 };
 

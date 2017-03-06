@@ -7090,6 +7090,17 @@
             <Portuguese></Portuguese>
             <Polish></Polish>
         </Key>
+		<Key ID="STR_License_Jan">
+            <Original>Level of competence: Jan</Original>
+            <Czech></Czech>
+            <Spanish></Spanish>
+            <Russian></Russian>
+            <German>Befähigungsstufe: Jan</German>
+            <French></French>
+            <Italian></Italian>
+            <Portuguese></Portuguese>
+            <Polish></Polish>
+        </Key>
         <Key ID="STR_License_CG">
             <Original>Coast Guard License</Original>
             <Czech>Pobřežní stráž licence</Czech>
@@ -10350,6 +10361,17 @@
             <Polish>Zbrojownia rebelianta</Polish>
             <Italian>Armeria della Guerriglia</Italian>
         </Key>
+		<Key ID="STR_MAR_Rebel_Weapon_Shop_Cop">
+            <Original>Police Weapon Shop</Original>
+            <Czech>Rebel obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes rebel</French>
+            <Spanish>Tienda de Armas Rebeldes</Spanish>
+            <Russian></Russian>
+            <German>Polizei-Waffenladen</German>
+            <Portuguese>Loja de Armas Rebeldes</Portuguese>
+            <Polish>Zbrojownia rebelianta</Polish>
+            <Italian>Armeria della Guerriglia</Italian>
+        </Key>
 		<Key ID="STR_MAR_Schwarz_Weapon_Shop">
             <Original>Black Market Weapon Shop</Original>
             <Czech>Rebel obchodu se zbraněmi</Czech>
@@ -10767,6 +10789,349 @@
             <Portuguese>Pagar Fiança</Portuguese>
             <Polish>Zapłać kaucję</Polish>
             <Italian>Paga cauzione</Italian>
+        </Key>
+    </Package>
+	<Package name="displayNames">
+        <Key ID="STR_C_Remove_uniforms">
+            <Original>Remove Uniform</Original>
+            <Czech>Remove Uniform</Czech>
+            <Spanish>Remove Uniform</Spanish>
+            <Russian>Remove Uniform</Russian>
+            <German>Entferne Kleidung</German>
+            <French>Remove Uniform</French>
+            <Italian>Remove Uniform</Italian>
+            <Portuguese>Remove Uniform</Portuguese>
+            <Polish>Remove Uniform</Polish>
+        </Key>
+        <Key ID="STR_C_Remove_headgear">
+            <Original>Remove Hat</Original>
+            <Czech>Remove Hat</Czech>
+            <Spanish>Remove Hat</Spanish>
+            <Russian>Remove Hat</Russian>
+            <German>Entferne Kopfbedeckung</German>
+            <French>Remove Hat</French>
+            <Italian>Remove Hat</Italian>
+            <Portuguese>Remove Hat</Portuguese>
+            <Polish>Remove Hat</Polish>
+        </Key>
+        <Key ID="STR_C_Remove_goggles">
+            <Original>Remove Glasses</Original>
+            <Czech>Remove Glasses</Czech>
+            <Spanish>Remove Glasses</Spanish>
+            <Russian>Remove Glasses</Russian>
+            <German>Entferne Brille</German>
+            <French>Remove Glasses</French>
+            <Italian>Remove Glasses</Italian>
+            <Portuguese>Remove Glasses</Portuguese>
+            <Polish>Remove Glasses</Polish>
+        </Key>
+        <Key ID="STR_C_Remove_vests">
+            <Original>Remove Vest</Original>
+            <Czech>Remove Vest</Czech>
+            <Spanish>Remove Vest</Spanish>
+            <Russian>Remove Vest</Russian>
+            <German>Entferne Weste</German>
+            <French>Remove Vest</French>
+            <Italian>Remove Vest</Italian>
+            <Portuguese>Remove Vest</Portuguese>
+            <Polish>Remove Vest</Polish>
+        </Key>
+        <Key ID="STR_C_Remove_backpacks">
+            <Original>Remove Backpack</Original>
+            <Czech>Remove Backpack</Czech>
+            <Spanish>Remove Backpack</Spanish>
+            <Russian>Remove Backpack</Russian>
+            <German>Entferne Rucksack</German>
+            <French>Remove Backpack</French>
+            <Italian>Remove Backpack</Italian>
+            <Portuguese>Remove Backpack</Portuguese>
+            <Polish>Remove Backpack</Polish>
+        </Key>
+        <Key ID="STR_C_Civ_Niko">
+            <Original>Casual Wears</Original>
+            <Czech>Casual Wears</Czech>
+            <Spanish>Casual Wears</Spanish>
+            <Russian>Casual Wears</Russian>
+            <German>Bürokleidung</German>
+            <French>Casual Wears</French>
+            <Italian>Casual Wears</Italian>
+            <Portuguese>Casual Wears</Portuguese>
+            <Polish>Casual Wears</Polish>
+        </Key>
+        <Key ID="STR_C_Civ_BandMask">
+            <Original>Hat and Bandana</Original>
+            <Czech>Hat and Bandana</Czech>
+            <Spanish>Hat and Bandana</Spanish>
+            <Russian>Hat and Bandana</Russian>
+            <German>Mütze und Bandana</German>
+            <French>Hat and Bandana</French>
+            <Italian>Hat and Bandana</Italian>
+            <Portuguese>Hat and Bandana</Portuguese>
+            <Polish>Hat and Bandana</Polish>
+        </Key>
+        <Key ID="STR_C_Cop_uniforms_shirt">
+            <Original>Cop Uniform Shirt</Original>
+            <Czech>Cop Uniform Shirt</Czech>
+            <Spanish>Cop Uniform Shirt</Spanish>
+            <Russian>Cop Uniform Shirt</Russian>
+            <German>Polizeiuniform Hemd</German>
+            <French>Cop Uniform Shirt</French>
+            <Italian>Cop Uniform Shirt</Italian>
+            <Portuguese>Cop Uniform Shirt</Portuguese>
+            <Polish>Cop Uniform Shirt</Polish>
+        </Key>
+		<Key ID="STR_C_Cop_uniforms_jacket">
+            <Original>Cop Uniform Jacket</Original>
+            <Czech>Cop Uniform Jacket</Czech>
+            <Spanish>Cop Uniform Jacket</Spanish>
+            <Russian>Cop Uniform Jacket</Russian>
+            <German>Polizeiuniform Jacke</German>
+            <French>Cop Uniform Jacket</French>
+            <Italian>Cop Uniform Jacket</Italian>
+            <Portuguese>Cop Uniform Jacket</Portuguese>
+            <Polish>Cop Uniform Jacket</Polish>
+        </Key>
+		<Key ID="STR_C_Cop_uniforms_pullover">
+            <Original>Cop Uniform Pullover</Original>
+            <Czech>Cop Uniform Pullover</Czech>
+            <Spanish>Cop Uniform Pullover</Spanish>
+            <Russian>Cop Uniform Pullover</Russian>
+            <German>Polizeiuniform Pullover</German>
+            <French>Cop Uniform Pullover</French>
+            <Italian>Cop Uniform Pullover</Italian>
+            <Portuguese>Cop Uniform Pullover</Portuguese>
+            <Polish>Cop Uniform Pullover</Polish>
+        </Key>
+        <Key ID="STR_C_EMS_uniforms">
+            <Original>EMS Uniform</Original>
+            <Czech>EMS Uniform</Czech>
+            <Spanish>EMS Uniform</Spanish>
+            <Russian>EMS Uniform</Russian>
+            <German>Sanitäter-Uniform</German>
+            <French>EMS Uniform</French>
+            <Italian>EMS Uniform</Italian>
+            <Portuguese>EMS Uniform</Portuguese>
+            <Polish>EMS Uniform</Polish>
+        </Key>
+        <Key ID="STR_C_EMS_backpacks">
+            <Original>EMS Backpack</Original>
+            <Czech>EMS Backpack</Czech>
+            <Spanish>EMS Backpack</Spanish>
+            <Russian>EMS Backpack</Russian>
+            <German>Sanitäter-Rucksack</German>
+            <French>EMS Backpack</French>
+            <Italian>EMS Backpack</Italian>
+            <Portuguese>EMS Backpack</Portuguese>
+            <Polish>EMS Backpack</Polish>
+        </Key>
+        <Key ID="STR_W_items_Flashbang">
+            <Original>M84 Flashbang</Original>
+            <Czech>M84 Flashbang</Czech>
+            <Spanish>M84 Flashbang</Spanish>
+            <Russian>M84 Flashbang</Russian>
+            <German>M84 Blendgranate</German>
+            <French>M84 Flashbang</French>
+            <Italian>M84 Flashbang</Italian>
+            <Portuguese>M84 Flashbang</Portuguese>
+            <Polish>M84 Flashbang</Polish>
+        </Key>
+		<Key ID="STR_W_items_Teargas">
+            <Original>Teargas</Original>
+            <Czech>Teargas</Czech>
+            <Spanish>Teargas</Spanish>
+            <Russian>Teargas</Russian>
+            <German>Tränengasgranate</German>
+            <French>Teargas</French>
+            <Italian>Teargas</Italian>
+            <Portuguese>Teargas</Portuguese>
+            <Polish>Teargas</Polish>
+        </Key>
+		<Key ID="STR_W_items_Marker">
+            <Original>LZ Marker</Original>
+            <Czech>LZ Marker</Czech>
+            <Spanish>LZ Marker</Spanish>
+            <Russian>LZ Marker</Russian>
+            <German>LZ-Markierung</German>
+            <French>LZ Marker</French>
+            <Italian>LZ Marker</Italian>
+            <Portuguese>LZ Marker</Portuguese>
+            <Polish>LZ Marker</Polish>
+        </Key>
+		<Key ID="STR_W_items_Radio">
+            <Original>Radio Programmer</Original>
+            <Czech>Radio Programmer</Czech>
+            <Spanish>Radio Programmer</Spanish>
+            <Russian>Radio Programmer</Russian>
+            <German>RF7800S Programmer</German>
+            <French>Radio Programmer</French>
+            <Italian>Radio Programmer</Italian>
+            <Portuguese>Radio Programmer</Portuguese>
+            <Polish>Radio Programmer</Polish>
+        </Key>
+		<Key ID="STR_W_items_PAK">
+            <Original>Bandages + Morphine</Original>
+            <Czech>Bandages + Morphine</Czech>
+            <Spanish>Bandages + Morphine</Spanish>
+            <Russian>Bandages + Morphine</Russian>
+            <German>Bandagen + Morphium</German>
+            <French>Bandages + Morphine</French>
+            <Italian>Bandages + Morphine</Italian>
+            <Portuguese>Bandages + Morphine</Portuguese>
+            <Polish>Bandages + Morphine</Polish>
+        </Key>
+		<Key ID="STR_W_items_Medikit">
+            <Original>Blood + Epinephrine</Original>
+            <Czech>Blood + Epinephrine</Czech>
+            <Spanish>Blood + Epinephrine</Spanish>
+            <Russian>Blood + Epinephrine</Russian>
+            <German>Blut + Epinephrin</German>
+            <French>Blood + Epinephrine</French>
+            <Italian>Blood + Epinephrine</Italian>
+            <Portuguese>Blood + Epinephrine</Portuguese>
+            <Polish>Blood + Epinephrine</Polish>
+        </Key>
+        <Key ID="STR_W_items_StunPistol">
+            <Original>TASER</Original>
+            <Czech>Stun Pistol</Czech>
+            <Spanish>Stun Pistol</Spanish>
+            <Russian>Stun Pistol</Russian>
+            <German>ELEKTROSCHOCKER</German>
+            <French>Stun Pistol</French>
+            <Italian>Stun Pistol</Italian>
+            <Portuguese>Stun Pistol</Portuguese>
+            <Polish>Stun Pistol</Polish>
+        </Key>
+		<Key ID="STR_W_mags_StunPistol">
+            <Original>TASER MAGAZINE</Original>
+            <Czech>Stun Pistol Magazine</Czech>
+            <Spanish>Stun Pistol Magazine</Spanish>
+            <Russian>Stun Pistol Magazine</Russian>
+            <German>ELEKTROSCHOCK-MAGAZIN</German>
+            <French>Stun Pistol Magazine</French>
+            <Italian>Stun Pistol Magazine</Italian>
+            <Portuguese>Stun Pistol Magazine</Portuguese>
+            <Polish>Stun Pistol Magazine</Polish>
+        </Key>
+        <Key ID="STR_W_items_TaserRifle">
+            <Original>TASER RIFLE</Original>
+            <Czech>Taser Rifle</Czech>
+            <Spanish>Taser Rifle</Spanish>
+            <Russian>Taser Rifle</Russian>
+            <German>ELEKTROSCHOCK-GEWEHR</German>
+            <French>Taser Rifle</French>
+            <Italian>Taser Rifle</Italian>
+            <Portuguese>Taser Rifle</Portuguese>
+            <Polish>Taser Rifle</Polish>
+        </Key>
+        <Key ID="STR_W_mags_TaserRifle">
+            <Original>TASER RIFLE MAGAZINE</Original>
+            <Czech>Taser Rifle Magazine</Czech>
+            <Spanish>Taser Rifle Magazine</Spanish>
+            <Russian>Taser Rifle Magazine</Russian>
+            <German>ELEKTROSCHOCK-GEWEHRMAGAZIN</German>
+            <French>Taser Rifle Magazine</French>
+            <Italian>Taser Rifle Magazine</Italian>
+            <Portuguese>Taser Rifle Magazine</Portuguese>
+            <Polish>Taser Rifle Magazine</Polish>
+        </Key>
+		<Key ID="STR_W_items_TaserSMG">
+            <Original>TASER SMG</Original>
+            <Czech>Taser SMG</Czech>
+            <Spanish>Taser SMG</Spanish>
+            <Russian>Taser SMG</Russian>
+            <German>ELEKTROSCHOCK-MP</German>
+            <French>Taser SMG</French>
+            <Italian>Taser SMG</Italian>
+            <Portuguese>Taser SMG</Portuguese>
+            <Polish>Taser SMG</Polish>
+        </Key>
+		<Key ID="STR_W_items_RubberPistol">
+            <Original>RUBBERBALL PISTOL</Original>
+            <Czech>Rubberball Pistol</Czech>
+            <Spanish>Rubberball Pistol</Spanish>
+            <Russian>Rubberball Pistol</Russian>
+            <German>GUMMIGESCHOSS-PISTOLE</German>
+            <French>Rubberball Pistol</French>
+            <Italian>Rubberball Pistol</Italian>
+            <Portuguese>Rubberball Pistol</Portuguese>
+            <Polish>Rubberball Pistol</Polish>
+        </Key>
+		<Key ID="STR_W_mags_RubberPistol">
+            <Original>RUBBERBALL PISTOL MAGAZINE</Original>
+            <Czech>Rubberball Pistol Magazine</Czech>
+            <Spanish>Rubberball Pistol Magazine</Spanish>
+            <Russian>Rubberball Pistol Magazine</Russian>
+            <German>GUMMIGESCHOSS-PISTOLENMAGAZIN</German>
+            <French>Rubberball Pistol Magazine</French>
+            <Italian>Rubberball Pistol Magazine</Italian>
+            <Portuguese>Rubberball Pistol Magazine</Portuguese>
+            <Polish>Rubberball Pistol Magazine</Polish>
+        </Key>
+        <Key ID="STR_W_items_RubberRifle">
+            <Original>RUBBERBALL RIFLE</Original>
+            <Czech>Rubberball Rifle</Czech>
+            <Spanish>Rubberball Rifle</Spanish>
+            <Russian>Rubberball Rifle</Russian>
+            <German>GUMMIGESCHOSS-GEWEHR</German>
+            <French>Rubberball Rifle</French>
+            <Italian>Rubberball Rifle</Italian>
+            <Portuguese>Rubberball Rifle</Portuguese>
+            <Polish>Rubberball Rifle</Polish>
+        </Key>
+        <Key ID="STR_W_mags_RubberRifle">
+            <Original>RUBBERBALL RIFLE MAGAZINE</Original>
+            <Czech>Rubberball Rifle Magazine</Czech>
+            <Spanish>Rubberball Rifle Magazine</Spanish>
+            <Russian>Rubberball Rifle Magazine</Russian>
+            <German>GUMMIGESCHOSS-GEWEHRMAGAZIN</German>
+            <French>Rubberball Rifle Magazine</French>
+            <Italian>Rubberball Rifle Magazine</Italian>
+            <Portuguese>Rubberball Rifle Magazine</Portuguese>
+            <Polish>Rubberball Rifle Magazine</Polish>
+        </Key>
+		<Key ID="STR_W_items_RubberMG">
+            <Original>RUBBERBALL MACHINEGUN</Original>
+            <Czech>Rubberball Machinegun</Czech>
+            <Spanish>Rubberball Machinegun</Spanish>
+            <Russian>Rubberball Machinegun</Russian>
+            <German>GUMMIGESCHOSS-MG</German>
+            <French>Rubberball Machinegun</French>
+            <Italian>Rubberball Machinegun</Italian>
+            <Portuguese>Rubberball Machinegun</Portuguese>
+            <Polish>Rubberball Machinegun</Polish>
+        </Key>
+        <Key ID="STR_W_mags_RubberMG">
+            <Original>RUBBERBALL MACHINEGUN MAGAZINE</Original>
+            <Czech>Rubberball Machinegun Magazine</Czech>
+            <Spanish>Rubberball Machinegun Magazine</Spanish>
+            <Russian>Rubberball Machinegun Magazine</Russian>
+            <German>GUMMIGESCHOSS-MG-MAGAZIN</German>
+            <French>Rubberball Machinegun Magazine</French>
+            <Italian>Rubberball Machinegun Magazine</Italian>
+            <Portuguese>Rubberball Machinegun Magazine</Portuguese>
+            <Polish>Rubberball Machinegun Magazine</Polish>
+        </Key>
+		<Key ID="STR_W_items_RubberSniper">
+            <Original>RUBBERBALL SNIPER</Original>
+            <Czech>Rubberball Rifle</Czech>
+            <Spanish>Rubberball Rifle</Spanish>
+            <Russian>Rubberball Rifle</Russian>
+            <German>GUMMIGESCHOSS-SCHARFSCHÜTZENGEWEHR</German>
+            <French>Rubberball Rifle</French>
+            <Italian>Rubberball Rifle</Italian>
+            <Portuguese>Rubberball Rifle</Portuguese>
+            <Polish>Rubberball Rifle</Polish>
+        </Key>
+        <Key ID="STR_W_mags_RubberSniper">
+            <Original>RUBBERBALL SNIPER MAGAZINE</Original>
+            <Czech>Rubberball Rifle Magazine</Czech>
+            <Spanish>Rubberball Rifle Magazine</Spanish>
+            <Russian>Rubberball Rifle Magazine</Russian>
+            <German>GUMMIGESCHOSS-SCHARFSCHÜTZENGEWEHR-MAGAZIN</German>
+            <French>Rubberball Rifle Magazine</French>
+            <Italian>Rubberball Rifle Magazine</Italian>
+            <Portuguese>Rubberball Rifle Magazine</Portuguese>
+            <Polish>Rubberball Rifle Magazine</Polish>
         </Key>
     </Package>
     <Package name="Crimes">

@@ -52,6 +52,7 @@ switch (typeOf _vehicle) do
 	case "EAL_Limousine_sport":{_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];};
 	case "EAL_Limousine_sport_HW":{_lightleft lightAttachObject [_vehicle, [-0.6, 2, -0.95]];};
 	case "B_Quadbike_01_F":{_lightleft lightAttachObject [_vehicle, [-0.20, 1, 0.8]];};
+	case "C_Van_01_box_F":{_lightleft lightAttachObject [_vehicle, [-0.60, 2, -0.8]];};
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
@@ -100,6 +101,7 @@ switch (typeOf _vehicle) do
 	case "EAL_Limousine_sport":{_lightright lightAttachObject [_vehicle, [0.6, 2, -0.95]];};
 	case "EAL_Limousine_sport_HW":{_lightright lightAttachObject [_vehicle, [0.6, 2, -0.95]];};
 	case "B_Quadbike_01_F":{_lightleft lightAttachObject [_vehicle, [0.40, 1, 0.8]];};
+	case "C_Van_01_box_F":{_lightleft lightAttachObject [_vehicle, [0.60, 2, -0.8]];};
 };
   
 _lightright setLightAttenuation [0.181, 0, 1000, 130]; 

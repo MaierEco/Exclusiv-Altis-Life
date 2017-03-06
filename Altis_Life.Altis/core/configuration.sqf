@@ -61,6 +61,8 @@ fvs_namenInfo = false;
 fvs_checking_a = false;
 fvs_namen_a = false;
 fvs_hakendaten = false;
+nn_last_vehicles = [];
+nn_empInUse = false;
 
 //Settings
 life_settings_enableNewsBroadcast = profileNamespace getVariable ["life_enableNewsBroadcast",true];

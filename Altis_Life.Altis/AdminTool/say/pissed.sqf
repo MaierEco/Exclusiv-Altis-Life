@@ -1,0 +1,1 @@
+[player,"pissed"] call life_fnc_globalSound;

@@ -11,6 +11,7 @@ private ["_skinName"];
 switch (playerSide) do {
     case civilian: {
         if (LIFE_SETTINGS(getNumber,"civ_skins") isEqualTo 1) then {
+			/*
             if (uniform player isEqualTo "U_C_Poloshirt_blue") then {
                 player setObjectTextureGlobal [0, "textures\civilian_uniform_1.jpg"];
             };
@@ -32,6 +33,13 @@ switch (playerSide) do {
             if (uniform player isEqualTo "U_C_Commoner1_1") then {
                 player setObjectTextureGlobal [0, "textures\civilian_uniform_7.jpg"];
             };
+			*/
+			if (backpack player isEqualTo "B_Carryall_mcamo") then {
+                player setObjectTextureGlobal [0, ""];
+            };
+			if (backpack player isEqualTo "tf_anarc210") then {
+                player setObjectTextureGlobal [0, ""];
+            };
         };
     };
 
@@ -45,11 +53,23 @@ switch (playerSide) do {
             };
             player setObjectTextureGlobal [0, _skinName];
         };
+		if (backpack player isEqualTo "B_Carryall_mcamo") then {
+            player setObjectTextureGlobal [0, ""];
+        };
+		if (backpack player isEqualTo "tf_anarc210") then {
+            player setObjectTextureGlobal [0, ""];
+        };
     };
 
     case independent: {
         if (uniform player isEqualTo "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+        };
+		if (backpack player isEqualTo "B_Carryall_mcamo") then {
+            player setObjectTextureGlobal [0, ""];
+        };
+		if (backpack player isEqualTo "tf_anarc210") then {
+            player setObjectTextureGlobal [0, ""];
         };
     };
 };

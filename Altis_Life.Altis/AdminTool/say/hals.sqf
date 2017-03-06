@@ -1,0 +1,1 @@
+[player,"hals"] call life_fnc_globalSound;

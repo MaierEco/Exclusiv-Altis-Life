@@ -1,0 +1,1 @@
+[player,"jammern"] call life_fnc_globalSound;

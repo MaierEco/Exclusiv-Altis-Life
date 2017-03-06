@@ -1,0 +1,1 @@
+[player,"lasses"] call life_fnc_globalSound;

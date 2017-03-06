@@ -1,0 +1,1 @@
+[player,"sehdich"] call life_fnc_globalSound;

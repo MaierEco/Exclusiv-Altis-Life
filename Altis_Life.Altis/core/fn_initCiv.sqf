@@ -58,35 +58,3 @@ life_is_alive = true;
 player addRating 9999999;
 
 [] execVM "scripts\teargas.sqf";
-
-[] spawn   
-{
-	while {true} do
-    {
-		if((backpack player) == "B_Carryall_mcamo") then
-		{
-			(backpackContainer player) setObjectTextureGlobal [0,""];
-			sleep 5;
-		}
-		else
-		{
-			sleep 30;
-		};
-    };
-};
-
-[] spawn   
-{
-	while {true} do
-    {
-		if((backpack player) == "tf_anarc210") then
-		{
-			(backpackContainer player) setObjectTextureGlobal [0,""];
-			sleep 5;
-		}
-		else
-		{
-			sleep 30;
-		};
-    };
-};

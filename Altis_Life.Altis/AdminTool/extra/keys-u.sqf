@@ -1,0 +1,2 @@
+GetTargetKey={hint"Keys Of Target Enabled!";cutText ["Keys Of Target Enabled!","PLAIN"];cutText[format["Keys Of Target Enabled"],"PLAIN DOWN"];titleText["You now have keys to this vehicle.","PLAIN"]; life_vehicles set[count life_vehicles,cursorTarget];};
+player addAction ["Get Key Target","[]spawn GetTargetKey"];

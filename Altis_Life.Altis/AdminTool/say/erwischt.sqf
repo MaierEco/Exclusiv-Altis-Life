@@ -1,0 +1,1 @@
+[player,"erwischt"] call life_fnc_globalSound;

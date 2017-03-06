@@ -135,7 +135,8 @@ removeallWeapons this;
 this addAction[localize"STR_MAR_Rebel_Market",life_fnc_virt_menu,"rebel"];  
 this addAction[localize "STR_MAR_General_Store",life_fnc_weaponShopMenu,"reb_genstore"];
 this addAction[localize "STR_MAR_Rebel_Clothing_Shop",life_fnc_clothingMenu,"sonder",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];  
-this addAction[localize "STR_MAR_Rebel_Weapon_Shop",life_fnc_weaponShopMenu,"sonder",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];   
+this addAction[localize "STR_MAR_Schwarz_Weapon_Shop",life_fnc_weaponShopMenu,"sonder",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];  
+this addAction[localize "STR_MAR_Rebel_Weapon_Shop_Cop",life_fnc_weaponShopMenu,"schwarz_cop",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz']; 
 this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
 
 //Schwarzmarkt Ausrüstung
@@ -145,7 +146,8 @@ this allowDamage false;
 this addAction[localize"STR_MAR_Rebel_Market",life_fnc_virt_menu,"rebel"];
 this addAction[localize "STR_MAR_General_Store",life_fnc_weaponShopMenu,"reb_genstore"];  
 this addAction[localize "STR_MAR_Rebel_Clothing_Shop",life_fnc_clothingMenu,"schwarz",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];  
-this addAction[localize "STR_MAR_Rebel_Weapon_Shop",life_fnc_weaponShopMenu,"schwarz",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];   
+this addAction[localize "STR_MAR_Schwarz_Weapon_Shop",life_fnc_weaponShopMenu,"schwarz",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];
+this addAction[localize "STR_MAR_Rebel_Weapon_Shop_Cop",life_fnc_weaponShopMenu,"schwarz_cop",0,false,false,"",' license_civ_rebel && playerSide == civilian && license_civ_schwarz'];    
 this addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,FALSE,FALSE,"",' vehicle player == player && player distance _target < 4 '];
 
 //Rebellenshop Ausrüstung

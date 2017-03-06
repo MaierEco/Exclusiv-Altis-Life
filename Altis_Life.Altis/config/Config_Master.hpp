@@ -39,7 +39,7 @@ class Life_Settings {
     /* ATM & Federal Reserve System Configurations */
     global_ATM = true; //Allow users to access any ATM on the map (Marked & Unmarked).
     noatm_timer = 10; //Time in minutes that players cannot deposit money after selling stolen gold.
-    minimum_cops = 3; //Minimum cops required online to rob the Federal Reserve
+    minimum_cops = 1; //Minimum cops required online to rob the Federal Reserve
 
     /* Basic System Configurations */
     donor_level = false; //Enable the donor level set in database (var = life_donorlevel; levels = 0,1,2,3,4,5). ATTENTION! Before enabling, read: https://www.bistudio.com/community/game-content-usage-rules & https://www.bistudio.com/monetization
@@ -53,7 +53,7 @@ class Life_Settings {
     news_broadcast_header_length = 60; //Number of characters that a header can consist of. Anything over this may clip. This depends on the font size and various other factors. Adjust with caution.
 
     /* Clothing System Configurations */
-    civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
+    civ_skins = true; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
     cop_extendedSkins = false; //Enable or disable cop skins by level. Before enabling, you must add all the EIGHT files to textures folder. (It must be named as: cop_uniform.jpg + cop_uniform_1.jpg, cop_uniform_2.jpg...cop_uniform_6.jpg, cop_uniform_7.jpg; meaning cop_uniform = life_coplevel=0, cop_uniform_1 = life_coplevel=1, cop_uniform_2 = life_coplevel=2, etc...)
     clothing_noTP = false;  //Disable clothing preview teleport? (true = no teleport. false = teleport)
     clothing_box = true; //true = teleport to a black box. false = teleport to somewhere on map. (It only affects the game if clothing_noTP is set as false)
@@ -62,7 +62,7 @@ class Life_Settings {
     /* Escape Menu Configuration */
     escapeMenu_timer = 10; //Time required to pass before you can click the abort button in the escape menu.
     escapeMenu_displayExtras = true; //Display the players UID & serverName specified below in the escape menu.
-    escapeMenu_displayText = "Vielen Dank!"; //Text displayed in the escape menu. Make it short.. around 20 characters.
+    escapeMenu_displayText = "Exclusiv Altis Life"; //Text displayed in the escape menu. Make it short.. around 20 characters.
 
     /* Fuel System Configurations */
     pump_service = true; //Allow users to use pump service on the map. Default = false
@@ -85,7 +85,7 @@ class Life_Settings {
     animaltypes_hunting[] = { "Sheep_random_F", "Goat_random_F", "Hen_random_F", "Cock_random_F", "Rabbit_F" }; //Classnames of aniamls you can hunt/gut
 
     /* Item-related Restrictions */
-    restrict_medic_weapons = true; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
+    restrict_medic_weapons = false; //Set to false to allow medics to use any weapon --true will remove ANY weapon they attempt to use (primary,secondary,launcher)
     restrict_clothingPickup = false; //Set to false to allow civilians to pickup/take any uniform (ground/crates/vehicles)
     restrict_weaponPickup = false; //Set to false to allow civilians to pickup/take any weapon (ground/crates/vehicles)
     restricted_uniforms[] = { "" };
@@ -118,11 +118,13 @@ class Life_Settings {
     fuelTank_winMultiplier = 1; //Win Multiplier in FuelTank Missions. Increase for greater payout. Default = 1
 
     /* Search & Seizure System Configurations */
-    seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap", "NVGoggles", "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue", "optic_ACO_grn_smg" }; //Arma items that will not get seized from player inventories
-    seize_uniform[] = { "U_Rangemaster" }; //Any specific uniforms you want to be seized from players
-    seize_vest[] = { "V_TacVest_blk_POLICE" }; //Any specific vests you want to be seized from players
-    seize_headgear[] = { "H_Cap_police" }; //Any hats or helmets you want seized from players
-    seize_minimum_rank = 3; //Required minimum CopLevel to be able to seize items from players
+    seize_exempt[] = { "Binocular", "ItemWatch", "ItemCompass", "ItemGPS", "ItemMap" "FirstAidKit", "ToolKit", "Chemlight_red", "Chemlight_yellow", "Chemlight_green", "Chemlight_blue" }; //Arma items that will not get seized from player inventories
+    seize_uniform[] = { "EAL_sek_uniform", "EAL_sek_uniform_leitung", "EAL_bp_uniform", "EAL_pilot_uniform", "U_B_FullGhillie_lsh", "U_B_FullGhillie_sard", "U_B_FullGhillie_ard", "EAL_uniform_hemd_1", "EAL_uniform_hemd_2", "EAL_uniform_hemd_3", "EAL_uniform_hemd_4", "EAL_uniform_hemd_5", "EAL_uniform_hemd_6", "EAL_uniform_hemd_7", "EAL_uniform_hemd_8", "EAL_uniform_hemd_9", "EAL_uniform_hemd_10", "EAL_uniform_hemd_11", "EAL_uniform_hemd_12", "EAL_uniform_hemd_13", "EAL_uniform_hemd_14", "EAL_uniform_hemd_15", "EAL_uniform_hemd_16", "EAL_uniform_hemd_17", "EAL_uniform_hemd_18", "EAL_uniform_hemd_19", "EAL_uniform_hemd_20", "EAL_uniform_jacke_1", "EAL_uniform_jacke_2", "EAL_uniform_jacke_3", "EAL_uniform_jacke_4", "EAL_uniform_jacke_5", "EAL_uniform_jacke_6", "EAL_uniform_jacke_7", "EAL_uniform_jacke_8", "EAL_uniform_jacke_9", "EAL_uniform_jacke_10", "EAL_uniform_jacke_11", "EAL_uniform_jacke_12", "EAL_uniform_jacke_13", "EAL_uniform_jacke_14", "EAL_uniform_jacke_15", "EAL_uniform_jacke_16", "EAL_uniform_jacke_17", "EAL_uniform_jacke_18", "EAL_uniform_jacke_19", "EAL_uniform_jacke_20", "EAL_uniform_pullover_1", "EAL_uniform_pullover_2", "EAL_uniform_pullover_3", "EAL_uniform_pullover_4", "EAL_uniform_pullover_5", "EAL_uniform_pullover_6", "EAL_uniform_pullover_7", "EAL_uniform_pullover_8", "EAL_uniform_pullover_9", "EAL_uniform_pullover_10", "EAL_uniform_pullover_11", "EAL_uniform_pullover_12", "EAL_uniform_pullover_13", "EAL_uniform_pullover_14", "EAL_uniform_pullover_15", "EAL_uniform_pullover_16", "EAL_uniform_pullover_17", "EAL_uniform_pullover_18", "EAL_uniform_pullover_19", "EAL_uniform_pullover_20", "U_I_C_Soldier_Para_1_F", "U_I_C_Soldier_Para_2_F", "U_I_C_Soldier_Para_3_F", "U_I_C_Soldier_Para_4_F", "U_I_C_Soldier_Para_5_F", "U_I_C_Soldier_Bandit_1_F", "U_I_C_Soldier_Bandit_2_F", "U_I_C_Soldier_Bandit_3_F", "U_I_C_Soldier_Bandit_4_F", "U_I_C_Soldier_Bandit_5_F", "U_I_C_Soldier_Camo_F", "U_IG_Guerilla1_1", "U_I_G_resistanceLeader_F", "U_IG_leader", "U_C_Scientist", "U_B_survival_uniform", "U_O_OfficerUniform_ocamo", "U_O_CombatUniform_oucamo", "U_O_FullGhillie_lsh", "U_O_FullGhillie_sard", "U_O_FullGhillie_ard", "EAL_medic_man_uniform", "EAL_medicDoc_man_uniform" }; //Any specific uniforms you want to be seized from players
+    seize_vest[] = { "EAL_polizei_guertel", "EAL_polizei_plattentraeger_schwer", "EAL_polizei_plattentraeger_breacher", "EAL_polizei_plattentraeger_leicht", "EAL_polizei_weste_leicht", "EAL_polizei_weste_schwer", "EAL_polizei_weste_warn", "V_Chestrig_rgr", "V_TacVestIR_blk", "V_TacVest_khk", "V_BandollierB_cbr", "V_HarnessO_brn", "V_TacChestrig_grn_F", "V_TacChestrig_oli_F", "V_TacChestrig_cbr_F", "V_PlateCarrier1_rgr_noflag_F", "V_PlateCarrier2_rgr_noflag_F" }; //Any specific vests you want to be seized from players
+    seize_headgear[] = { "EAL_helmet_visor", "EAL_polizei_uscap", "EAL_balaclava", "H_Beret_blk_POLICE", "H_Beret_Colonel", "H_HelmetB_black", "H_HelmetSpecB_blk", "H_HelmetB_light_black", "H_Cap_blk", "H_Beret_02", "EAL_helm_pilot", "H_ShemagOpen_tan", "H_Shemag_olive", "H_ShemagOpen_khk", "H_MilCap_oucamo", "H_Bandanna_camo", "H_Bandanna_mcamo", "H_HelmetB_plain_mcamo" }; //Any hats or helmets you want seized from players
+	seize_backpack[] = { "tf_anarc210", "B_Carryall_mcamo", "B_AssaultPack_blk", "B_Bergen_blk", "B_AssaultPack_dgtl", "B_AssaultPack_mcamo", "B_Kitbag_mcamo", "B_Bergen_mcamo", "B_FieldPack_ocamo", "B_FieldPack_oucamo", "B_Carryall_ocamo", "B_Carryall_oucamo", "B_Carryall_mcamo", "B_ViperHarness_khk_F", "B_ViperHarness_oli_F", "B_ViperLightHarness_khk_F", "B_ViperLightHarness_oli_F", "B_MedicBergen_sgg" }; //Any backpacks you want seized from players
+	seize_goggles[] = { "G_Tactical_Clear", "G_Aviator", "G_Combat", "G_Bandanna_beast", "G_Bandanna_khk", "G_Bandanna_shades", "G_Bandanna_blk", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_oli", "G_Bandanna_sport", "G_Bandanna_tan" }; //Any goggles you want seized from players
+    seize_minimum_rank = 4; //Required minimum CopLevel to be able to seize items from players
 
     /* Vehicle System Configurations */
     chopShop_vehicles[] = { "Car", "Air", "Ship" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)

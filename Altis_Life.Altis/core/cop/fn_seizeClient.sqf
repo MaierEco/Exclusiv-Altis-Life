@@ -11,6 +11,8 @@ _exempt = LIFE_SETTINGS(getArray,"seize_exempt");
 _headgear = LIFE_SETTINGS(getArray,"seize_headgear");
 _vest = LIFE_SETTINGS(getArray,"seize_vest");
 _uniform = LIFE_SETTINGS(getArray,"seize_uniform");
+_backpack = LIFE_SETTINGS(getArray,"seize_backpack");
+_goggles = LIFE_SETTINGS(getArray,"seize_goggles");
 
 {
     if (!(_x in _exempt)) then {

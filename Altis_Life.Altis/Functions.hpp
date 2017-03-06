@@ -223,6 +223,7 @@ class Life_Client_Core {
 		class evac_start {};
 		class evac_end {};
 		class globalSound {};
+		class globalSoundClient {};
 		class suicideVest {};
 		class suicideTruck {};
 		class rubberSound {};
@@ -289,6 +290,7 @@ class Life_Client_Core {
         class medicRequest {};
         class medicSiren {};
         class medicSirenLights {};
+		class medicOpener {};
         class onPlayerKilled {};
         class onPlayerRespawn {};
         class requestMedic {};
@@ -375,6 +377,17 @@ class Life_Client_Core {
         class weaponShopMenu {};
         class weaponShopSelection {};
     };
+	
+	class Special {
+		file = "core\special";
+		class openEmpMenu {};
+		class isEmpOperator {};
+		class scanVehicles {};
+		class warnVehicle {};
+		class empVehicle {};
+		class vehicleWarned {};
+		class vehicleEmpd {};
+	};
 
     class Vehicle {
         file = "core\vehicle";
